@@ -9,14 +9,14 @@
     <p><strong>Автоматизированный инструмент анализа комментариев учащихся.</strong></p>
     Создано <strong>megamen</strong>, совместно с совместно с платформой <strong>Geekbrains</strong>
     <br /><br />
-    <a href="https://github.com/mireaMegaman/HELLIOS/issues" style="color: black;">Сообщить об ошибке</a>
+    <a href="https://github.com/megamen-x/HELLIOS/issues" style="color: black;">Сообщить об ошибке</a>
     ·
-    <a href="https://github.com/mireaMegaman/HELLIOS/discussions/1" style="color: black;">Предложить улучшение</a>
+    <a href="https://github.com/megamen-x/HELLIOS/discussions/1" style="color: black;">Предложить улучшение</a>
   </p>
 </div>
 
 **Содержание:**
-- [Проблематика задачи](#title1)
+- [Проблематика](#title1)
 - [Описание решения](#title2)
 - [Развертка приложения](#title3)
 - [Обновления](#title4)
@@ -64,7 +64,7 @@
 ## <h3 align="start"><a id="title3">Развертка приложения</a></h3> 
 
 <details>
-  <summary> <strong><i>Локальный запуск приложения на устройстве:</i></strong> </summary>
+  <summary> <strong><i>Локальный запуск решения на устройстве:</i></strong> </summary>
   
   - Для запуска приложения:
   
