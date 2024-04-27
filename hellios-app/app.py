@@ -53,7 +53,7 @@ with gr.Blocks(theme=theme) as demo:
     with gr.Row():
         with gr.Column():
             with gr.Tab('Обработка файлов'):
-                textfile = gr.File(show_label=False,)
+                textfile = gr.File(label="Документ с данными",)
             with gr.Tab('Обработка текста'):
                 subject = gr.Textbox(lines=6, label="Поле для текста", placeholder="Введите ваш текст сюда",)
             with gr.Column():
@@ -62,6 +62,10 @@ with gr.Blocks(theme=theme) as demo:
                     trigger_info = gr.Button(value="Подробнее",)
             with gr.Tab('Параметры'):
                 verb = gr.CheckboxGroup(["Активность", "Поведение", "Технические проблемы", "Стоп-слова"], label="Параметры отслеживания",show_label=False)
+            with gr.Tab('База знаний'):
+                with gr.Row(): 
+                    badwords = gr.File(label="Словарь стоп-слов",)
+                    gooddomen = gr.File(label="Словарь разрешенных доменов",)
             
     # Var 3 
     # with gr.Row():
