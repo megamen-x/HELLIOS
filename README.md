@@ -53,6 +53,9 @@
     - **```ML```**:
       - cointegrated/rubert-tiny2 (классификация спама и определение сообщений о тех. неполадках);
 
+Пример генерации на основе лекций:
+    - [Ссылка](https://github.com/megamen-x/HELLIOS/blob/main/hellios-app/data.json)
+
 Опробовать решение:
    - [HELLIOS](https://huggingface.co/spaces/AtLan9/HELLIOS)
 
