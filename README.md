@@ -40,23 +40,21 @@
 
  - **Общая схема решения:**
 
-    ```здесь будет схема решения```
+    ![block 3](https://github.com/megamen-x/HELLIOS/assets/100156578/98cce222-fc0a-4efe-b67f-8cee1a26f13e)
 
 
  - **Использованные решения:**
     - **```Preprocessing```**:
-      - обработка данных с помощью эвристик и регулярных выражений;
-    - **```NLP```**:
-      - cointegrated/rubert-tiny2;
+      - регулярные выражения для определения стоп-слов;
+      - ассоциативные правила для определения сообщений о тех. неполадках платформы;
+      - оценка наличия комментацием первые k-min лекции;
+      - оценка количества комментариев в окне n-min;
+      - оценка общего количества комментариев за лекцию;
+    - **```ML```**:
+      - cointegrated/rubert-tiny2 (классификация спама и определение сообщений о тех. неполадках);
 
 Ссылки на скачивание моделей:
-   - [HF-HUB](https://huggingface.co/)
-
-
-**Серверная часть**
-
-![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+   - [HF-HUB](https://huggingface.co/whatisslove11/labse)
 
 
 <p align="right">(<a href="#readme-top"><i>Вернуться наверх</i></a>)</p>
@@ -69,24 +67,13 @@
   - Для запуска приложения:
   
   ```
-  ./HELLIOS/hellios-app/Release/hellios.py
+  ./HELLIOS/hellios-app/app.py
+  ```
+  или 
+   ```
+  gradio app.py
   ```
 
-  - Для запуска сервера (Windows vs-code):
-  
-  ```
-  cd hellios-server
-  python -m venv .venv
-  .venv\Scripts\activate
-  pip install -r requirements.txt
-  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-  ```
-  - После установки зависимостей (5-7 минут):
-  ```
-  python manage.py makemigrations
-  python manage.py migrate
-  python manage.py runserver
-  ```
 
 </details> 
 
