@@ -1,0 +1,205 @@
+import pandas as pd
+import re
+from urllib.parse import urlparse
+import numpy as np
+import json
+from constants import LIST_OF_ALLOWED_LINKS, INTERVAL, OBSCENE_WORDS
+
+from datetime import datetime, time
+from time import time as t
+
+
+def has_obscene_words(a: str) -> int:
+    """
+    Поиск запрещенных слов на основе загруженного словаря.
+    :param a: строка для поиска запрещенных слов
+    :return: int/bool, есть ли как минимум одно запрещенное слово в строке (1 - да, 0 - нет)
+    """
+    for i in str(a).lower().split():
+        if f" {i} " in OBSCENE_WORDS:
+            return 1
+    return 0
+
+
+def clear_end_lesson(x: str) -> str:
+    """
+    Очистка формата данных "время" от ненужных символов. Написано только для определеного столбца
+    Пример: 2024-03-06T10:53:03.124Z --> 2024-03-06 10:53:03
+    :param x: строка для исправления
+    :return: str, очищенная строка
+    """
+    if 'T' in x:
+        x = x.replace('T', ' ')
+        x = x[:-5]
+    return x
+
+
+def get_length_session(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Подсчет продолжительности лекции по последнему комментарию и столбцу "Дата старта урока"
+    :param df: исходная таблица данных
+    :return: pd.DataFrame, таблица данных с новой колонкой "Продолжительность лекции"
+    """
+    end_lesson = df.sort_values("Дата сообщения").groupby("ID урока")["Дата сообщения"].last()
+    end_lesson = end_lesson.to_dict()
+    df['Дата конца урока'] = df['ID урока'].apply(lambda x: end_lesson[x])
+    df['Дата старта урока'] = df['Дата старта урока'].astype('datetime64[ns]')
+    df['Дата конца урока'] = df['Дата конца урока'].apply(clear_end_lesson)
+    df['Дата конца урока'] = df['Дата конца урока'].astype('datetime64[ns]')
+    df['Продолжительность лекции'] = df['Дата конца урока'] - df['Дата старта урока']
+    return df
+
+
+def is_allowed_link(x: str) -> str:
+    """
+    Валидирование найденной ссылки на предмет разрешенного домена (можно ли ссылку данного типа кидать в чат или нет)
+    :param x: найденная сслыка
+    :return: str, метка одного из 2 классов, разрешена ли ссылка и найдена ли она в принципе
+        "Нейтрально" - в приведенной строке ссылки не было/ссылка находится в реестре разрешенных
+        "Запрещенка" - ссылка не находится в реестре разрешеннхы доменов
+    """
+    pattern = r'https?://\S+'
+    is_match = re.search(pattern, x)
+    if bool(is_match) is False:
+        return 'Нейтрально'
+    extracted_links = re.findall(pattern, x)
+    extracted_domens = [urlparse(el).netloc for el in extracted_links]
+    for link in extracted_domens:
+        if link not in LIST_OF_ALLOWED_LINKS:
+            return 'Запрещенка'
+    return 'Нейтрально'
+
+
+def get_count_comments_session(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Подсчет общего количества комментариев за прошедший урок
+    :param df: исходная таблица данных
+    :return: pd.DataFrame, таблица данных с новой колонкой "Количество комментариев"
+    """
+    count_of_classes = df.groupby(["ID урока"]).agg(['count'])['Дата старта урока']
+    df['Количество комментариев'] = df['ID урока'].apply(lambda x: count_of_classes.loc[x, 'count'])
+
+    return df
+
+
+def get_difference_between_begin_first_comment_feature(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Подсчет пройденного времени с начала урока до первого оставленного комментария в чате
+    Может свидетельствовать о проблемах с чатом (считаем как тех. неполадка) или о низкой активности студентов
+    :param df: исходная таблица данных
+    :return: pd.DataFrame, таблица данных с новой колонкой "Разницу между началом и первым комментарием"
+
+    Название этой функции писал Александр Калинин. Я оставил это чисто как мем.
+    В случае проблем с кодом читайте вслух название этой функции как мантру.
+    """
+    id_difference = {}
+
+    for i in df['ID урока'].unique():
+        first_comment = df[df['ID урока'] == i].sort_values(by='Дата сообщения',
+                                                            ascending=True).reset_index(drop=True)
+        if not first_comment.empty:
+            first_comment_date = datetime.strptime(str(first_comment.loc[0, 'Дата сообщения']),
+                                                   '%Y-%m-%d %H:%M:%S')
+            beginning_date = datetime.strptime(str(first_comment.loc[0, 'Дата старта урока']),
+                                               '%Y-%m-%d %H:%M:%S')
+            timestamp = first_comment_date - beginning_date
+            id_difference[i] = timestamp
+
+    # почему название этой колонки такое кривое? Нет, его писал не Александр Калинин. ЕГО ПИСАЛ ЕГОР.
+    df['Разницу между началом и первым комментарием'] = df['ID урока'].apply(lambda id: id_difference[id])
+    return df
+
+
+def get_technical_errors_feature(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Поиск ссылки в чате на платформу для проведения трансляций в последние Х% минут лекции
+    Переход на платформу по типу дискорда и конец комментариев в чате могут свидетельствовать о технической неполадке.
+    :param df: исходная таблица данных
+    :return: pd.DataFrame, таблица данных с новой колонкой "Техническое перемещение"
+    """
+    is_technical_error = {}
+    pattern = r'https://discord.gg'
+    for el in df['ID урока'].unique():
+        group = df[df['ID урока'] == el]
+        last_20_percent_messanges = group.tail(int(0.2 * len(group)))
+        is_link_discord = False
+        for msg in last_20_percent_messanges['Текст сообщения']:
+            is_match = re.search(pattern, msg)
+            if is_match:
+                is_link_discord = True
+        is_technical_error[el] = is_link_discord
+    df['Техническое перемещение'] = df['ID урока'].apply(lambda x: is_technical_error[x])
+    return df
+
+
+def get_person_activities_feature(df: pd.DataFrame) -> None:
+    """
+    Подсчет количества комментариев в интервалах от k до k + INTERVAL минут.
+    Пример: от 0 до 15 минут, от 15 до 30 минут и так до конца урока.
+
+    Дополнительно создает json файл для построения диаграм.
+    Исходя из количества комментариев в окне продолжительностью INTERVAL, можно анализировать пиковые моменты лекции.
+    :param df: исходная таблица данных
+    :return: None
+
+    Если вы видите в конце названия функции слово feature - ЭТО ПИСАЛ АЛЕКСАНДР КАЛИНИН.
+    """
+    diagrams = {}
+
+    if not INTERVAL.endswith('min'):
+        raise ValueError(f"Attribute 'interval' must end with 'min'. Got {INTERVAL}")
+
+    for el in df['ID урока'].unique():
+        group = df[df['ID урока'] == el]
+        group.set_index(pd.Index(np.arange(len(group))), inplace=True)
+        list_times = []
+        list_counts = []
+        current_time = group.loc[0, 'Дата старта урока']
+        while current_time <= group.loc[0, 'Дата конца урока']:
+            list_times.append(str(current_time))
+            list_counts.append(len(group[((group['Дата сообщения'] > current_time) & (
+                    group['Дата сообщения'] <= current_time + INTERVAL))]))
+            current_time += INTERVAL
+        diagrams[el] = {'timestamps': list_times, 'count_comments': list_counts}
+
+    with open('diagrams.json', mode='w', encoding='utf-8') as file:
+        json.dump(diagrams, file, indent=4)
+
+
+def data_processing(file: str) -> pd.DataFrame:
+    """
+    Просто запускает все ранее написанные функции и периодически кастует регулярки (и не только регулярки).
+    :param file: путь до файла с данными
+    :return: ps.DataFrame, файл с новыми колонками и очищенными данными
+    """
+    df = pd.read_excel(file)
+    df = df.dropna(how='all')
+    df = df.drop(columns=['Разметка', 'Роль пользователя', 'Unnamed: 6'])
+    df = df.dropna()
+
+    df = get_length_session(df)
+    df['Текст сообщения'] = df['Текст сообщения'].apply(
+        lambda x: re.sub('(; |)\d+\-\d+\-\d+T\d+\:\d+\:\d+\.\d+Z', ' ', x)
+    )
+    df['Ссылки'] = df['Текст сообщения'].apply(is_allowed_link)
+    df['Дата сообщения'] = df['Дата сообщения'].apply(clear_end_lesson)
+    df['Дата сообщения'] = df['Дата сообщения'].astype('datetime64[ns]')
+
+    sorted_df = df.groupby('ID урока').apply(lambda x: x.sort_values('Дата сообщения')).reset_index(drop=True)
+    sorted_df['Продолжительность урока в минутах'] = sorted_df['Продолжительность лекции'].apply(
+        lambda x: round(x.seconds / 60, 2)
+    )
+
+    sorted_df = get_difference_between_begin_first_comment_feature(sorted_df)
+    sorted_df['Наличие грубых слов'] = sorted_df['Текст сообщения'].apply(has_obscene_words)
+    sorted_df = get_count_comments_session(sorted_df)
+    sorted_df = get_technical_errors_feature(sorted_df)
+    sorted_df = sorted_df.drop(columns=['Продолжительность лекции', 'Разницу между началом и первым комментарием'])
+
+    get_person_activities_feature(sorted_df)
+
+    return sorted_df
+
+
+if __name__ == "__main__":
+    data_processing('train_GB_KachestvoPrepodovaniya.xlsx')
