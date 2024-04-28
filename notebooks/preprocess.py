@@ -3,9 +3,29 @@ import re
 from urllib.parse import urlparse
 import numpy as np
 import json
-from constants import LIST_OF_ALLOWED_LINKS, INTERVAL, OBSCENE_WORDS
 import pathlib
 from datetime import datetime
+from datetime import timedelta
+import codecs
+
+
+LIST_OF_ALLOWED_LINKS = [
+    'discord.gg',
+    'scratch.mit.edu',
+    'www.figma.com',
+    'replit.com',
+    'colab.research.google.com',
+    't.me',
+    'github.com',
+    'www.canva.com'
+    ]
+
+INTERVAL = timedelta(minutes=15)
+
+f = codecs.open('obscene_corpus.txt', mode='r', encoding='utf-8')
+OBSCENE_WORDS = f.read().replace('\n', ' ').lower()
+f.close()
+
 
 def has_obscene_words(a: str) -> int:
     """
@@ -169,19 +189,37 @@ def get_person_activities_feature(df: pd.DataFrame) -> None:
             'sliding_window_timestamps': list_times,
             'sliding_window_comments':list_counts,
             'stop_words_timestamps':stop_words_timestamps,
-            'invalid_link_timestamps': invalid_link_timestamps
+            'invalid_link_timestamps': invalid_link_timestamps,
+            'validation_check_on_end_of_lesson': str(group.loc[0, 'Техническое перемещение']),
             }
 
     with open('data.json', mode='w', encoding='utf-8') as file:
         json.dump(data, file, indent=4)
 
 
-def data_processing(file: str) -> pd.DataFrame:
+def data_processing(file: str, obscene_words: str='', allowed_links: str='', interval: int=15) -> pd.DataFrame:
     """
     Просто запускает все ранее написанные функции и периодически кастует регулярки (и не только регулярки).
     :param file: путь до файла с данными
+    :param obscene_words: путь до дополнительных грубых слов
+    :param allowed_links: путь до дополнительных доступных ссылок
+    :param interval: интервал для анализа активности пользователей во время урока
     :return: ps.DataFrame, файл с новыми колонками и очищенными данными
     """
+    global INTERVAL, OBSCENE_WORDS, LIST_OF_ALLOWED_LINKS
+    INTERVAL = timedelta(minutes=interval)
+    if len(obscene_words) > 0:
+        with open(obscene_words, mode='r') as file:
+            new_words = file.readlines()
+            new_words = ' '.join([el.replace('\n', '') for el in new_words])
+        OBSCENE_WORDS += new_words
+
+    if len(allowed_links) > 0:
+        with open(allowed_links, mode='r') as file:
+            new_links = file.readlines()
+            new_links = [el.replace('\n', '') for el in new_links]
+        LIST_OF_ALLOWED_LINKS.extend(new_links)
+    
     file_ext = pathlib.Path(file).suffix
     if file_ext == '.xlsx':
         df = pd.read_excel(file)
