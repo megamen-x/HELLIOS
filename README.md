@@ -53,11 +53,13 @@
     - **```ML```**:
       - cointegrated/rubert-tiny2 (классификация спама и определение сообщений о тех. неполадках);
 
-Ссылки на скачивание моделей:
+Опробовать решение:
+   - [HELLIOS](https://huggingface.co/spaces/AtLan9/HELLIOS)
+
+Ссылка на скачивание моделей:
    - [HF-HUB](https://huggingface.co/whatisslove11/labse)
 
-Опробовать решение:
-   - [HF-HUB](https://huggingface.co/spaces/AtLan9/HELLIOS)
+
 
 
 <p align="right">(<a href="#readme-top"><i>Вернуться наверх</i></a>)</p>
