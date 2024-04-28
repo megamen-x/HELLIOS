@@ -7,6 +7,7 @@ import pathlib
 from datetime import datetime
 from datetime import timedelta
 import codecs
+from IPython.display import display
 
 
 LIST_OF_ALLOWED_LINKS = [
@@ -22,7 +23,7 @@ LIST_OF_ALLOWED_LINKS = [
 
 INTERVAL = timedelta(minutes=15)
 
-f = codecs.open('obscene_corpus.txt', mode='r', encoding='utf-8')
+f = codecs.open('notebooks/obscene_corpus.txt', mode='r', encoding='utf-8')
 OBSCENE_WORDS = f.read().replace('\n', ' ').lower()
 f.close()
 
@@ -238,6 +239,7 @@ def data_processing(file: str, obscene_words: str='', allowed_links: str='', int
     df['Дата сообщения'] = df['Дата сообщения'].apply(clear_end_lesson)
     df['Дата сообщения'] = df['Дата сообщения'].astype('datetime64[ns]')
 
+
     sorted_df = df.groupby('ID урока').apply(lambda x: x.sort_values('Дата сообщения')).reset_index(drop=True)
     sorted_df['Продолжительность урока в минутах'] = sorted_df['Продолжительность лекции'].apply(
         lambda x: round(x.seconds / 60, 2)
@@ -250,6 +252,13 @@ def data_processing(file: str, obscene_words: str='', allowed_links: str='', int
     sorted_df = sorted_df.drop(columns=['Продолжительность лекции', 'Разницу между началом и первым комментарием'])
 
     get_person_activities_feature(sorted_df)
+    # parae = sorted_df.loc[0]
+    
+    sorted_df['Дата сообщения'] = sorted_df['Дата сообщения'].astype('str')
+    sorted_df['Дата старта урока'] = sorted_df['Дата старта урока'].astype('str')
+    sorted_df['Дата конца урока'] = sorted_df['Дата конца урока'].astype('str')
+    
+    display(sorted_df)
 
     return sorted_df
 
