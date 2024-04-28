@@ -56,6 +56,9 @@
 Ссылки на скачивание моделей:
    - [HF-HUB](https://huggingface.co/whatisslove11/labse)
 
+Опробовать решение:
+   - [HF-HUB](https://huggingface.co/spaces/AtLan9/HELLIOS)
+
 
 <p align="right">(<a href="#readme-top"><i>Вернуться наверх</i></a>)</p>
 
