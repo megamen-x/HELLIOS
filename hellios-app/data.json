@@ -1,0 +1,7089 @@
+{
+    "307751": {
+        "sliding_window_timestamps": [
+            "2024-03-06 10:02:38",
+            "2024-03-06 10:17:38",
+            "2024-03-06 10:32:38",
+            "2024-03-06 10:47:38"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "307752": {
+        "sliding_window_timestamps": [
+            "2024-03-13 09:51:49",
+            "2024-03-13 10:06:49"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-13 10:12:22"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "321813": {
+        "sliding_window_timestamps": [
+            "2024-03-02 12:56:26",
+            "2024-03-02 13:11:26",
+            "2024-03-02 13:26:26",
+            "2024-03-02 13:41:26",
+            "2024-03-02 13:56:26",
+            "2024-03-02 14:11:26",
+            "2024-03-02 14:26:26"
+        ],
+        "sliding_window_comments": [
+            27,
+            19,
+            9,
+            8,
+            7,
+            3,
+            6
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 24
+    },
+    "321814": {
+        "sliding_window_timestamps": [
+            "2024-03-09 12:50:28",
+            "2024-03-09 13:05:28",
+            "2024-03-09 13:20:28",
+            "2024-03-09 13:35:28",
+            "2024-03-09 13:50:28",
+            "2024-03-09 14:05:28",
+            "2024-03-09 14:20:28"
+        ],
+        "sliding_window_comments": [
+            27,
+            6,
+            8,
+            6,
+            2,
+            3,
+            5
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 11
+    },
+    "321815": {
+        "sliding_window_timestamps": [
+            "2024-03-16 12:53:39",
+            "2024-03-16 13:08:39",
+            "2024-03-16 13:23:39",
+            "2024-03-16 13:38:39",
+            "2024-03-16 13:53:39",
+            "2024-03-16 14:08:39",
+            "2024-03-16 14:23:39"
+        ],
+        "sliding_window_comments": [
+            2,
+            2,
+            1,
+            7,
+            18,
+            10,
+            45
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 23
+    },
+    "321816": {
+        "sliding_window_timestamps": [
+            "2024-03-23 12:51:59",
+            "2024-03-23 13:06:59",
+            "2024-03-23 13:21:59",
+            "2024-03-23 13:36:59",
+            "2024-03-23 13:51:59",
+            "2024-03-23 14:06:59",
+            "2024-03-23 14:21:59"
+        ],
+        "sliding_window_comments": [
+            46,
+            44,
+            36,
+            53,
+            36,
+            34,
+            15
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 50
+    },
+    "323051": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:50:37",
+            "2024-03-03 08:05:37",
+            "2024-03-03 08:20:37",
+            "2024-03-03 08:35:37",
+            "2024-03-03 08:50:37",
+            "2024-03-03 09:05:37",
+            "2024-03-03 09:20:37"
+        ],
+        "sliding_window_comments": [
+            42,
+            15,
+            17,
+            23,
+            25,
+            13,
+            4
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-03 08:48:23"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 25
+    },
+    "331970": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:50:24",
+            "2024-03-10 08:05:24",
+            "2024-03-10 08:20:24",
+            "2024-03-10 08:35:24",
+            "2024-03-10 08:50:24",
+            "2024-03-10 09:05:24",
+            "2024-03-10 09:20:24",
+            "2024-03-10 09:35:24"
+        ],
+        "sliding_window_comments": [
+            9,
+            18,
+            20,
+            12,
+            3,
+            7,
+            32,
+            7
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "True",
+        "student_activity": "Very high activity",
+        "count_spam": 19
+    },
+    "331971": {
+        "sliding_window_timestamps": [
+            "2024-03-17 07:00:38",
+            "2024-03-17 07:15:38",
+            "2024-03-17 07:30:38",
+            "2024-03-17 07:45:38",
+            "2024-03-17 08:00:38",
+            "2024-03-17 08:15:38",
+            "2024-03-17 08:30:38",
+            "2024-03-17 08:45:38"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            2,
+            51,
+            27,
+            24,
+            36
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-17 08:51:46"
+        ],
+        "validation_check_on_end_of_lesson": "True",
+        "student_activity": "Average activity",
+        "count_spam": 51
+    },
+    "332007": {
+        "sliding_window_timestamps": [
+            "2024-03-03 08:04:28",
+            "2024-03-03 08:19:28",
+            "2024-03-03 08:34:28",
+            "2024-03-03 08:49:28",
+            "2024-03-03 09:04:28",
+            "2024-03-03 09:19:28"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            1,
+            0,
+            8,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "332008": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:59:28",
+            "2024-03-10 08:14:28",
+            "2024-03-10 08:29:28",
+            "2024-03-10 08:44:28",
+            "2024-03-10 08:59:28",
+            "2024-03-10 09:14:28"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            0,
+            4,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 1
+    },
+    "332009": {
+        "sliding_window_timestamps": [
+            "2024-03-17 07:58:56",
+            "2024-03-17 08:13:56",
+            "2024-03-17 08:28:56",
+            "2024-03-17 08:43:56",
+            "2024-03-17 08:58:56",
+            "2024-03-17 09:13:56"
+        ],
+        "sliding_window_comments": [
+            4,
+            15,
+            11,
+            6,
+            3,
+            12
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 6
+    },
+    "332011": {
+        "sliding_window_timestamps": [
+            "2024-03-31 07:54:52"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "332051": {
+        "sliding_window_timestamps": [
+            "2024-03-02 12:50:14",
+            "2024-03-02 13:05:14",
+            "2024-03-02 13:20:14",
+            "2024-03-02 13:35:14",
+            "2024-03-02 13:50:14",
+            "2024-03-02 14:05:14",
+            "2024-03-02 14:20:14"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "332052": {
+        "sliding_window_timestamps": [
+            "2024-03-09 12:50:43",
+            "2024-03-09 13:05:43",
+            "2024-03-09 13:20:43",
+            "2024-03-09 13:35:43",
+            "2024-03-09 13:50:43",
+            "2024-03-09 14:05:43"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            10
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "332053": {
+        "sliding_window_timestamps": [
+            "2024-03-16 12:55:09",
+            "2024-03-16 13:10:09",
+            "2024-03-16 13:25:09",
+            "2024-03-16 13:40:09",
+            "2024-03-16 13:55:09",
+            "2024-03-16 14:10:09"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            3,
+            0,
+            1,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "True",
+        "student_activity": "Below average activity",
+        "count_spam": 2
+    },
+    "332054": {
+        "sliding_window_timestamps": [
+            "2024-03-23 12:52:10",
+            "2024-03-23 13:07:10",
+            "2024-03-23 13:22:10",
+            "2024-03-23 13:37:10",
+            "2024-03-23 13:52:10",
+            "2024-03-23 14:07:10",
+            "2024-03-23 14:22:10"
+        ],
+        "sliding_window_comments": [
+            4,
+            4,
+            12,
+            7,
+            8,
+            12,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-23 13:37:28",
+            "2024-03-23 14:03:27"
+        ],
+        "validation_check_on_end_of_lesson": "True",
+        "student_activity": "Very high activity",
+        "count_spam": 8
+    },
+    "332055": {
+        "sliding_window_timestamps": [
+            "2024-03-30 12:50:30",
+            "2024-03-30 13:05:30",
+            "2024-03-30 13:20:30",
+            "2024-03-30 13:35:30",
+            "2024-03-30 13:50:30",
+            "2024-03-30 14:05:30",
+            "2024-03-30 14:20:30",
+            "2024-03-30 14:35:30"
+        ],
+        "sliding_window_comments": [
+            0,
+            4,
+            3,
+            1,
+            0,
+            6,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 5
+    },
+    "332106": {
+        "sliding_window_timestamps": [
+            "2024-03-10 09:52:43"
+        ],
+        "sliding_window_comments": [
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "332107": {
+        "sliding_window_timestamps": [
+            "2024-03-24 09:51:30",
+            "2024-03-24 10:06:30",
+            "2024-03-24 10:21:30",
+            "2024-03-24 10:36:30",
+            "2024-03-24 10:51:30",
+            "2024-03-24 11:06:30",
+            "2024-03-24 11:21:30",
+            "2024-03-24 11:36:30"
+        ],
+        "sliding_window_comments": [
+            2,
+            2,
+            0,
+            2,
+            0,
+            0,
+            1,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 4
+    },
+    "332108": {
+        "sliding_window_timestamps": [
+            "2024-03-31 09:54:39",
+            "2024-03-31 10:09:39",
+            "2024-03-31 10:24:39",
+            "2024-03-31 10:39:39",
+            "2024-03-31 10:54:39",
+            "2024-03-31 11:09:39",
+            "2024-03-31 11:24:39"
+        ],
+        "sliding_window_comments": [
+            1,
+            2,
+            3,
+            6,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-31 10:41:28"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "332153": {
+        "sliding_window_timestamps": [
+            "2024-03-05 14:50:25",
+            "2024-03-05 15:05:25",
+            "2024-03-05 15:20:25",
+            "2024-03-05 15:35:25",
+            "2024-03-05 15:50:25",
+            "2024-03-05 16:05:25",
+            "2024-03-05 16:20:25"
+        ],
+        "sliding_window_comments": [
+            7,
+            5,
+            2,
+            2,
+            1,
+            0,
+            17
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 12
+    },
+    "332154": {
+        "sliding_window_timestamps": [
+            "2024-03-12 14:51:24",
+            "2024-03-12 15:06:24",
+            "2024-03-12 15:21:24",
+            "2024-03-12 15:36:24"
+        ],
+        "sliding_window_comments": [
+            21,
+            17,
+            31,
+            74
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-12 15:04:23"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 41
+    },
+    "332284": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:49:18",
+            "2024-03-03 08:04:18",
+            "2024-03-03 08:19:18",
+            "2024-03-03 08:34:18",
+            "2024-03-03 08:49:18",
+            "2024-03-03 09:04:18",
+            "2024-03-03 09:19:18"
+        ],
+        "sliding_window_comments": [
+            6,
+            8,
+            1,
+            22,
+            11,
+            22,
+            6
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 15
+    },
+    "332316": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:50:40",
+            "2024-03-03 10:05:40",
+            "2024-03-03 10:20:40",
+            "2024-03-03 10:35:40",
+            "2024-03-03 10:50:40",
+            "2024-03-03 11:05:40"
+        ],
+        "sliding_window_comments": [
+            0,
+            7,
+            7,
+            6,
+            2,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-03 10:11:46",
+            "2024-03-03 10:48:08",
+            "2024-03-03 10:50:16",
+            "2024-03-03 10:51:59",
+            "2024-03-03 10:54:12",
+            "2024-03-03 11:18:30",
+            "2024-03-03 11:18:46"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 4
+    },
+    "337223": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:49:43",
+            "2024-03-03 08:04:43",
+            "2024-03-03 08:19:43",
+            "2024-03-03 08:34:43",
+            "2024-03-03 08:49:43",
+            "2024-03-03 09:04:43",
+            "2024-03-03 09:19:43"
+        ],
+        "sliding_window_comments": [
+            3,
+            5,
+            5,
+            6,
+            0,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 5
+    },
+    "337224": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:50:29",
+            "2024-03-10 08:05:29",
+            "2024-03-10 08:20:29",
+            "2024-03-10 08:35:29",
+            "2024-03-10 08:50:29",
+            "2024-03-10 09:05:29",
+            "2024-03-10 09:20:29"
+        ],
+        "sliding_window_comments": [
+            19,
+            1,
+            5,
+            22,
+            3,
+            6,
+            5
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 30
+    },
+    "337225": {
+        "sliding_window_timestamps": [
+            "2024-03-17 07:50:15",
+            "2024-03-17 08:05:15",
+            "2024-03-17 08:20:15",
+            "2024-03-17 08:35:15",
+            "2024-03-17 08:50:15",
+            "2024-03-17 09:05:15",
+            "2024-03-17 09:20:15"
+        ],
+        "sliding_window_comments": [
+            1,
+            10,
+            1,
+            4,
+            2,
+            2,
+            5
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-17 08:11:50"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 6
+    },
+    "337226": {
+        "sliding_window_timestamps": [
+            "2024-03-24 07:48:39",
+            "2024-03-24 08:03:39",
+            "2024-03-24 08:18:39",
+            "2024-03-24 08:33:39",
+            "2024-03-24 08:48:39",
+            "2024-03-24 09:03:39",
+            "2024-03-24 09:18:39",
+            "2024-03-24 09:33:39"
+        ],
+        "sliding_window_comments": [
+            4,
+            24,
+            15,
+            0,
+            5,
+            14,
+            13,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 18
+    },
+    "337227": {
+        "sliding_window_timestamps": [
+            "2024-03-31 07:50:21",
+            "2024-03-31 08:05:21",
+            "2024-03-31 08:20:21",
+            "2024-03-31 08:35:21",
+            "2024-03-31 08:50:21",
+            "2024-03-31 09:05:21"
+        ],
+        "sliding_window_comments": [
+            18,
+            2,
+            0,
+            2,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 8
+    },
+    "337353": {
+        "sliding_window_timestamps": [
+            "2024-03-06 14:42:08",
+            "2024-03-06 14:57:08",
+            "2024-03-06 15:12:08",
+            "2024-03-06 15:27:08",
+            "2024-03-06 15:42:08",
+            "2024-03-06 15:57:08"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            0,
+            0,
+            3,
+            4
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 2
+    },
+    "337451": {
+        "sliding_window_timestamps": [
+            "2024-03-05 14:45:03",
+            "2024-03-05 15:00:03",
+            "2024-03-05 15:15:03",
+            "2024-03-05 15:30:03",
+            "2024-03-05 15:45:03",
+            "2024-03-05 16:00:03",
+            "2024-03-05 16:15:03"
+        ],
+        "sliding_window_comments": [
+            1,
+            3,
+            9,
+            2,
+            3,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-05 15:17:23",
+            "2024-03-05 15:44:06"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 9
+    },
+    "337452": {
+        "sliding_window_timestamps": [
+            "2024-03-12 14:45:05",
+            "2024-03-12 15:00:05",
+            "2024-03-12 15:15:05",
+            "2024-03-12 15:30:05",
+            "2024-03-12 15:45:05",
+            "2024-03-12 16:00:05",
+            "2024-03-12 16:15:05",
+            "2024-03-12 16:30:05"
+        ],
+        "sliding_window_comments": [
+            1,
+            4,
+            0,
+            0,
+            0,
+            0,
+            6,
+            6
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-12 16:31:21"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 8
+    },
+    "337453": {
+        "sliding_window_timestamps": [
+            "2024-03-19 14:45:05",
+            "2024-03-19 15:00:05",
+            "2024-03-19 15:15:05",
+            "2024-03-19 15:30:05",
+            "2024-03-19 15:45:05"
+        ],
+        "sliding_window_comments": [
+            1,
+            3,
+            7,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 2
+    },
+    "337516": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:50:12",
+            "2024-03-03 08:05:12",
+            "2024-03-03 08:20:12",
+            "2024-03-03 08:35:12",
+            "2024-03-03 08:50:12",
+            "2024-03-03 09:05:12",
+            "2024-03-03 09:20:12"
+        ],
+        "sliding_window_comments": [
+            0,
+            6,
+            1,
+            1,
+            4,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 3
+    },
+    "337517": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:50:54",
+            "2024-03-10 08:05:54"
+        ],
+        "sliding_window_comments": [
+            0,
+            4
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 4
+    },
+    "337877": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:52:33",
+            "2024-03-03 10:07:33",
+            "2024-03-03 10:22:33",
+            "2024-03-03 10:37:33",
+            "2024-03-03 10:52:33",
+            "2024-03-03 11:07:33",
+            "2024-03-03 11:22:33"
+        ],
+        "sliding_window_comments": [
+            1,
+            1,
+            4,
+            1,
+            0,
+            1,
+            4
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "337878": {
+        "sliding_window_timestamps": [
+            "2024-03-10 09:52:01",
+            "2024-03-10 10:07:01",
+            "2024-03-10 10:22:01",
+            "2024-03-10 10:37:01",
+            "2024-03-10 10:52:01",
+            "2024-03-10 11:07:01",
+            "2024-03-10 11:22:01"
+        ],
+        "sliding_window_comments": [
+            5,
+            24,
+            13,
+            11,
+            3,
+            6,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 16
+    },
+    "337910": {
+        "sliding_window_timestamps": [
+            "2024-03-07 14:52:01",
+            "2024-03-07 15:07:01",
+            "2024-03-07 15:22:01",
+            "2024-03-07 15:37:01",
+            "2024-03-07 15:52:01",
+            "2024-03-07 16:07:01",
+            "2024-03-07 16:22:01",
+            "2024-03-07 16:37:01"
+        ],
+        "sliding_window_comments": [
+            3,
+            6,
+            2,
+            0,
+            2,
+            3,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 3
+    },
+    "337966": {
+        "sliding_window_timestamps": [
+            "2024-03-14 14:49:16",
+            "2024-03-14 15:04:16",
+            "2024-03-14 15:19:16",
+            "2024-03-14 15:34:16",
+            "2024-03-14 15:49:16",
+            "2024-03-14 16:04:16",
+            "2024-03-14 16:19:16",
+            "2024-03-14 16:34:16"
+        ],
+        "sliding_window_comments": [
+            11,
+            45,
+            29,
+            18,
+            16,
+            11,
+            20,
+            25
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 31
+    },
+    "337967": {
+        "sliding_window_timestamps": [
+            "2024-03-21 14:50:29",
+            "2024-03-21 15:05:29",
+            "2024-03-21 15:20:29",
+            "2024-03-21 15:35:29",
+            "2024-03-21 15:50:29",
+            "2024-03-21 16:05:29",
+            "2024-03-21 16:20:29",
+            "2024-03-21 16:35:29"
+        ],
+        "sliding_window_comments": [
+            25,
+            14,
+            37,
+            17,
+            18,
+            8,
+            3,
+            6
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 22
+    },
+    "338134": {
+        "sliding_window_timestamps": [
+            "2024-03-02 14:49:22",
+            "2024-03-02 15:04:22",
+            "2024-03-02 15:19:22",
+            "2024-03-02 15:34:22",
+            "2024-03-02 15:49:22",
+            "2024-03-02 16:04:22",
+            "2024-03-02 16:19:22",
+            "2024-03-02 16:34:22",
+            "2024-03-02 16:49:22",
+            "2024-03-02 17:04:22"
+        ],
+        "sliding_window_comments": [
+            1,
+            6,
+            2,
+            5,
+            6,
+            2,
+            0,
+            3,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-02 15:01:08",
+            "2024-03-02 17:06:57"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 8
+    },
+    "338166": {
+        "sliding_window_timestamps": [
+            "2024-03-05 14:44:59",
+            "2024-03-05 14:59:59",
+            "2024-03-05 15:14:59",
+            "2024-03-05 15:29:59",
+            "2024-03-05 15:44:59",
+            "2024-03-05 15:59:59"
+        ],
+        "sliding_window_comments": [
+            1,
+            4,
+            2,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-05 15:00:37",
+            "2024-03-05 16:09:29"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 3
+    },
+    "338167": {
+        "sliding_window_timestamps": [
+            "2024-03-12 14:42:56",
+            "2024-03-12 14:57:56",
+            "2024-03-12 15:12:56",
+            "2024-03-12 15:27:56",
+            "2024-03-12 15:42:56",
+            "2024-03-12 15:57:56"
+        ],
+        "sliding_window_comments": [
+            0,
+            16,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 4
+    },
+    "338168": {
+        "sliding_window_timestamps": [
+            "2024-03-19 14:45:25",
+            "2024-03-19 15:00:25",
+            "2024-03-19 15:15:25",
+            "2024-03-19 15:30:25"
+        ],
+        "sliding_window_comments": [
+            0,
+            7,
+            0,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 4
+    },
+    "338169": {
+        "sliding_window_timestamps": [
+            "2024-03-26 14:46:03",
+            "2024-03-26 15:01:03"
+        ],
+        "sliding_window_comments": [
+            0,
+            5
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 3
+    },
+    "338265": {
+        "sliding_window_timestamps": [
+            "2024-03-05 14:56:04",
+            "2024-03-05 15:11:04",
+            "2024-03-05 15:26:04",
+            "2024-03-05 15:41:04",
+            "2024-03-05 15:56:04"
+        ],
+        "sliding_window_comments": [
+            5,
+            0,
+            1,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 5
+    },
+    "338266": {
+        "sliding_window_timestamps": [
+            "2024-03-12 14:47:20",
+            "2024-03-12 15:02:20",
+            "2024-03-12 15:17:20",
+            "2024-03-12 15:32:20",
+            "2024-03-12 15:47:20",
+            "2024-03-12 16:02:20"
+        ],
+        "sliding_window_comments": [
+            2,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 3
+    },
+    "338372": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:50:26",
+            "2024-03-03 10:05:26",
+            "2024-03-03 10:20:26",
+            "2024-03-03 10:35:26",
+            "2024-03-03 10:50:26"
+        ],
+        "sliding_window_comments": [
+            1,
+            5,
+            4,
+            8,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 5
+    },
+    "338373": {
+        "sliding_window_timestamps": [
+            "2024-03-10 09:46:46",
+            "2024-03-10 10:01:46",
+            "2024-03-10 10:16:46",
+            "2024-03-10 10:31:46",
+            "2024-03-10 10:46:46"
+        ],
+        "sliding_window_comments": [
+            0,
+            4,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 3
+    },
+    "338374": {
+        "sliding_window_timestamps": [
+            "2024-03-17 09:51:17"
+        ],
+        "sliding_window_comments": [
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 3
+    },
+    "338448": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:50:33",
+            "2024-03-03 10:05:33",
+            "2024-03-03 10:20:33",
+            "2024-03-03 10:35:33",
+            "2024-03-03 10:50:33",
+            "2024-03-03 11:05:33",
+            "2024-03-03 11:20:33"
+        ],
+        "sliding_window_comments": [
+            18,
+            4,
+            33,
+            15,
+            25,
+            22,
+            12
+        ],
+        "stop_words_timestamps": [
+            "2024-03-03 10:00:03"
+        ],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 24
+    },
+    "338449": {
+        "sliding_window_timestamps": [
+            "2024-03-10 09:51:30",
+            "2024-03-10 10:06:30",
+            "2024-03-10 10:21:30",
+            "2024-03-10 10:36:30",
+            "2024-03-10 10:51:30",
+            "2024-03-10 11:06:30",
+            "2024-03-10 11:21:30",
+            "2024-03-10 11:36:30"
+        ],
+        "sliding_window_comments": [
+            52,
+            8,
+            22,
+            1,
+            6,
+            14,
+            6,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 18
+    },
+    "338450": {
+        "sliding_window_timestamps": [
+            "2024-03-17 09:50:13",
+            "2024-03-17 10:05:13",
+            "2024-03-17 10:20:13",
+            "2024-03-17 10:35:13",
+            "2024-03-17 10:50:13",
+            "2024-03-17 11:05:13",
+            "2024-03-17 11:20:13",
+            "2024-03-17 11:35:13"
+        ],
+        "sliding_window_comments": [
+            30,
+            30,
+            24,
+            12,
+            17,
+            19,
+            24,
+            16
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 38
+    },
+    "338582": {
+        "sliding_window_timestamps": [
+            "2024-03-05 14:55:04",
+            "2024-03-05 15:10:04",
+            "2024-03-05 15:25:04",
+            "2024-03-05 15:40:04",
+            "2024-03-05 15:55:04",
+            "2024-03-05 16:10:04"
+        ],
+        "sliding_window_comments": [
+            14,
+            8,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 5
+    },
+    "338583": {
+        "sliding_window_timestamps": [
+            "2024-03-12 14:57:00",
+            "2024-03-12 15:12:00",
+            "2024-03-12 15:27:00",
+            "2024-03-12 15:42:00",
+            "2024-03-12 15:57:00",
+            "2024-03-12 16:12:00",
+            "2024-03-12 16:27:00"
+        ],
+        "sliding_window_comments": [
+            2,
+            0,
+            0,
+            0,
+            3,
+            5,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 5
+    },
+    "338584": {
+        "sliding_window_timestamps": [
+            "2024-03-19 14:50:36",
+            "2024-03-19 15:05:36",
+            "2024-03-19 15:20:36",
+            "2024-03-19 15:35:36",
+            "2024-03-19 15:50:36",
+            "2024-03-19 16:05:36",
+            "2024-03-19 16:20:36"
+        ],
+        "sliding_window_comments": [
+            1,
+            4,
+            2,
+            8,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-19 15:46:54"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 4
+    },
+    "338585": {
+        "sliding_window_timestamps": [
+            "2024-03-26 14:55:30",
+            "2024-03-26 15:10:30",
+            "2024-03-26 15:25:30"
+        ],
+        "sliding_window_comments": [
+            4,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "338656": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:51:33",
+            "2024-03-03 10:06:33",
+            "2024-03-03 10:21:33",
+            "2024-03-03 10:36:33",
+            "2024-03-03 10:51:33",
+            "2024-03-03 11:06:33",
+            "2024-03-03 11:21:33"
+        ],
+        "sliding_window_comments": [
+            14,
+            17,
+            5,
+            11,
+            0,
+            9,
+            7
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-03 10:14:18"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 17
+    },
+    "338657": {
+        "sliding_window_timestamps": [
+            "2024-03-10 09:51:14",
+            "2024-03-10 10:06:14",
+            "2024-03-10 10:21:14",
+            "2024-03-10 10:36:14",
+            "2024-03-10 10:51:14",
+            "2024-03-10 11:06:14",
+            "2024-03-10 11:21:14"
+        ],
+        "sliding_window_comments": [
+            18,
+            16,
+            33,
+            12,
+            7,
+            6,
+            14
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 23
+    },
+    "338698": {
+        "sliding_window_timestamps": [
+            "2024-03-07 15:01:19",
+            "2024-03-07 15:16:19",
+            "2024-03-07 15:31:19",
+            "2024-03-07 15:46:19",
+            "2024-03-07 16:01:19"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 2
+    },
+    "338727": {
+        "sliding_window_timestamps": [
+            "2024-03-02 12:51:16",
+            "2024-03-02 13:06:16",
+            "2024-03-02 13:21:16",
+            "2024-03-02 13:36:16",
+            "2024-03-02 13:51:16",
+            "2024-03-02 14:06:16",
+            "2024-03-02 14:21:16"
+        ],
+        "sliding_window_comments": [
+            5,
+            8,
+            2,
+            1,
+            5,
+            6,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-02 13:31:32"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 4
+    },
+    "338728": {
+        "sliding_window_timestamps": [
+            "2024-03-09 12:55:16",
+            "2024-03-09 13:10:16",
+            "2024-03-09 13:25:16",
+            "2024-03-09 13:40:16",
+            "2024-03-09 13:55:16",
+            "2024-03-09 14:10:16",
+            "2024-03-09 14:25:16"
+        ],
+        "sliding_window_comments": [
+            11,
+            0,
+            4,
+            0,
+            3,
+            4,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 1
+    },
+    "338729": {
+        "sliding_window_timestamps": [
+            "2024-03-16 12:54:36",
+            "2024-03-16 13:09:36",
+            "2024-03-16 13:24:36",
+            "2024-03-16 13:39:36",
+            "2024-03-16 13:54:36"
+        ],
+        "sliding_window_comments": [
+            6,
+            0,
+            5,
+            10,
+            4
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 5
+    },
+    "338730": {
+        "sliding_window_timestamps": [
+            "2024-03-23 12:51:13",
+            "2024-03-23 13:06:13",
+            "2024-03-23 13:21:13",
+            "2024-03-23 13:36:13",
+            "2024-03-23 13:51:13",
+            "2024-03-23 14:06:13",
+            "2024-03-23 14:21:13"
+        ],
+        "sliding_window_comments": [
+            13,
+            12,
+            13,
+            4,
+            10,
+            12,
+            4
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "True",
+        "student_activity": "Very high activity",
+        "count_spam": 14
+    },
+    "338757": {
+        "sliding_window_timestamps": [
+            "2024-03-14 14:50:59",
+            "2024-03-14 15:05:59",
+            "2024-03-14 15:20:59",
+            "2024-03-14 15:35:59",
+            "2024-03-14 15:50:59",
+            "2024-03-14 16:05:59",
+            "2024-03-14 16:20:59",
+            "2024-03-14 16:35:59",
+            "2024-03-14 16:50:59"
+        ],
+        "sliding_window_comments": [
+            2,
+            0,
+            1,
+            0,
+            0,
+            2,
+            2,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-14 16:49:46",
+            "2024-03-14 16:57:29"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 3
+    },
+    "338758": {
+        "sliding_window_timestamps": [
+            "2024-03-21 14:50:51",
+            "2024-03-21 15:05:51",
+            "2024-03-21 15:20:51",
+            "2024-03-21 15:35:51",
+            "2024-03-21 15:50:51",
+            "2024-03-21 16:05:51",
+            "2024-03-21 16:20:51",
+            "2024-03-21 16:35:51"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-21 16:31:15",
+            "2024-03-21 16:32:21"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "338759": {
+        "sliding_window_timestamps": [
+            "2024-03-28 14:53:38",
+            "2024-03-28 15:08:38",
+            "2024-03-28 15:23:38",
+            "2024-03-28 15:38:38"
+        ],
+        "sliding_window_comments": [
+            2,
+            0,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "338793": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:49:34",
+            "2024-03-03 08:04:34",
+            "2024-03-03 08:19:34",
+            "2024-03-03 08:34:34",
+            "2024-03-03 08:49:34",
+            "2024-03-03 09:04:34",
+            "2024-03-03 09:19:34",
+            "2024-03-03 09:34:34"
+        ],
+        "sliding_window_comments": [
+            5,
+            0,
+            3,
+            1,
+            0,
+            1,
+            5,
+            5
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 2
+    },
+    "338794": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:46:34",
+            "2024-03-10 08:01:34",
+            "2024-03-10 08:16:34",
+            "2024-03-10 08:31:34",
+            "2024-03-10 08:46:34",
+            "2024-03-10 09:01:34",
+            "2024-03-10 09:16:34"
+        ],
+        "sliding_window_comments": [
+            2,
+            7,
+            6,
+            0,
+            5,
+            7,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 5
+    },
+    "338994": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:49:39",
+            "2024-03-03 10:04:39",
+            "2024-03-03 10:19:39",
+            "2024-03-03 10:34:39",
+            "2024-03-03 10:49:39",
+            "2024-03-03 11:04:39"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "338995": {
+        "sliding_window_timestamps": [
+            "2024-03-10 09:52:48",
+            "2024-03-10 10:07:48",
+            "2024-03-10 10:22:48",
+            "2024-03-10 10:37:48",
+            "2024-03-10 10:52:48",
+            "2024-03-10 11:07:48",
+            "2024-03-10 11:22:48",
+            "2024-03-10 11:37:48"
+        ],
+        "sliding_window_comments": [
+            5,
+            5,
+            7,
+            2,
+            2,
+            1,
+            2,
+            8
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 5
+    },
+    "338996": {
+        "sliding_window_timestamps": [
+            "2024-03-17 09:45:49",
+            "2024-03-17 10:00:49",
+            "2024-03-17 10:15:49",
+            "2024-03-17 10:30:49",
+            "2024-03-17 10:45:49",
+            "2024-03-17 11:00:49",
+            "2024-03-17 11:15:49",
+            "2024-03-17 11:30:49"
+        ],
+        "sliding_window_comments": [
+            0,
+            10,
+            14,
+            0,
+            7,
+            0,
+            2,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 3
+    },
+    "338997": {
+        "sliding_window_timestamps": [
+            "2024-03-24 09:48:31",
+            "2024-03-24 10:03:31",
+            "2024-03-24 10:18:31",
+            "2024-03-24 10:33:31",
+            "2024-03-24 10:48:31"
+        ],
+        "sliding_window_comments": [
+            13,
+            20,
+            6,
+            0,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 5
+    },
+    "339238": {
+        "sliding_window_timestamps": [
+            "2024-03-06 15:01:50",
+            "2024-03-06 15:16:50",
+            "2024-03-06 15:31:50",
+            "2024-03-06 15:46:50",
+            "2024-03-06 16:01:50",
+            "2024-03-06 16:16:50",
+            "2024-03-06 16:31:50"
+        ],
+        "sliding_window_comments": [
+            5,
+            10,
+            10,
+            10,
+            8,
+            7,
+            12
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 7
+    },
+    "339239": {
+        "sliding_window_timestamps": [
+            "2024-03-13 15:01:55",
+            "2024-03-13 15:16:55",
+            "2024-03-13 15:31:55",
+            "2024-03-13 15:46:55",
+            "2024-03-13 16:01:55",
+            "2024-03-13 16:16:55",
+            "2024-03-13 16:31:55"
+        ],
+        "sliding_window_comments": [
+            8,
+            23,
+            38,
+            11,
+            29,
+            16,
+            10
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 10
+    },
+    "339300": {
+        "sliding_window_timestamps": [
+            "2024-03-05 14:50:19",
+            "2024-03-05 15:05:19",
+            "2024-03-05 15:20:19",
+            "2024-03-05 15:35:19",
+            "2024-03-05 15:50:19",
+            "2024-03-05 16:05:19",
+            "2024-03-05 16:20:19",
+            "2024-03-05 16:35:19"
+        ],
+        "sliding_window_comments": [
+            1,
+            32,
+            21,
+            38,
+            48,
+            24,
+            21,
+            21
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 41
+    },
+    "339434": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:55:41",
+            "2024-03-03 08:10:41",
+            "2024-03-03 08:25:41",
+            "2024-03-03 08:40:41",
+            "2024-03-03 08:55:41",
+            "2024-03-03 09:10:41"
+        ],
+        "sliding_window_comments": [
+            5,
+            16,
+            16,
+            3,
+            9,
+            8
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 3
+    },
+    "339435": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:51:54",
+            "2024-03-10 08:06:54",
+            "2024-03-10 08:21:54",
+            "2024-03-10 08:36:54",
+            "2024-03-10 08:51:54",
+            "2024-03-10 09:06:54",
+            "2024-03-10 09:21:54",
+            "2024-03-10 09:36:54"
+        ],
+        "sliding_window_comments": [
+            2,
+            15,
+            19,
+            10,
+            1,
+            17,
+            4,
+            5
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 13
+    },
+    "339498": {
+        "sliding_window_timestamps": [
+            "2024-03-02 12:48:29",
+            "2024-03-02 13:03:29",
+            "2024-03-02 13:18:29",
+            "2024-03-02 13:33:29",
+            "2024-03-02 13:48:29",
+            "2024-03-02 14:03:29",
+            "2024-03-02 14:18:29",
+            "2024-03-02 14:33:29"
+        ],
+        "sliding_window_comments": [
+            0,
+            15,
+            19,
+            20,
+            10,
+            2,
+            0,
+            7
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 9
+    },
+    "339499": {
+        "sliding_window_timestamps": [
+            "2024-03-09 12:49:57",
+            "2024-03-09 13:04:57",
+            "2024-03-09 13:19:57",
+            "2024-03-09 13:34:57",
+            "2024-03-09 13:49:57"
+        ],
+        "sliding_window_comments": [
+            2,
+            14,
+            13,
+            18,
+            6
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-09 13:32:14",
+            "2024-03-09 14:02:11"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 7
+    },
+    "340289": {
+        "sliding_window_timestamps": [
+            "2024-03-06 14:50:01",
+            "2024-03-06 15:05:01",
+            "2024-03-06 15:20:01",
+            "2024-03-06 15:35:01",
+            "2024-03-06 15:50:01",
+            "2024-03-06 16:05:01",
+            "2024-03-06 16:20:01",
+            "2024-03-06 16:35:01",
+            "2024-03-06 16:50:01"
+        ],
+        "sliding_window_comments": [
+            13,
+            14,
+            20,
+            6,
+            4,
+            5,
+            0,
+            3,
+            7
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-06 15:03:05"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 10
+    },
+    "340290": {
+        "sliding_window_timestamps": [
+            "2024-03-13 14:49:53",
+            "2024-03-13 15:04:53",
+            "2024-03-13 15:19:53",
+            "2024-03-13 15:34:53",
+            "2024-03-13 15:49:53",
+            "2024-03-13 16:04:53",
+            "2024-03-13 16:19:53",
+            "2024-03-13 16:34:53",
+            "2024-03-13 16:49:53"
+        ],
+        "sliding_window_comments": [
+            13,
+            39,
+            22,
+            12,
+            19,
+            38,
+            9,
+            14,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-13 16:13:15",
+            "2024-03-13 16:42:51"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 25
+    },
+    "340291": {
+        "sliding_window_timestamps": [
+            "2024-03-20 14:50:21",
+            "2024-03-20 15:05:21",
+            "2024-03-20 15:20:21",
+            "2024-03-20 15:35:21",
+            "2024-03-20 15:50:21",
+            "2024-03-20 16:05:21",
+            "2024-03-20 16:20:21",
+            "2024-03-20 16:35:21",
+            "2024-03-20 16:50:21"
+        ],
+        "sliding_window_comments": [
+            7,
+            6,
+            7,
+            20,
+            33,
+            9,
+            16,
+            10,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "True",
+        "student_activity": "Very high activity",
+        "count_spam": 20
+    },
+    "340292": {
+        "sliding_window_timestamps": [
+            "2024-03-27 14:50:20",
+            "2024-03-27 15:05:20",
+            "2024-03-27 15:20:20",
+            "2024-03-27 15:35:20",
+            "2024-03-27 15:50:20",
+            "2024-03-27 16:05:20",
+            "2024-03-27 16:20:20",
+            "2024-03-27 16:35:20"
+        ],
+        "sliding_window_comments": [
+            8,
+            10,
+            10,
+            40,
+            22,
+            19,
+            6,
+            7
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-27 15:39:42"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 22
+    },
+    "340328": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:52:48",
+            "2024-03-03 08:07:48",
+            "2024-03-03 08:22:48",
+            "2024-03-03 08:37:48",
+            "2024-03-03 08:52:48",
+            "2024-03-03 09:07:48",
+            "2024-03-03 09:22:48"
+        ],
+        "sliding_window_comments": [
+            4,
+            15,
+            4,
+            10,
+            6,
+            4,
+            12
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-03 08:31:17",
+            "2024-03-03 08:33:01"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 7
+    },
+    "340329": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:50:40",
+            "2024-03-10 08:05:40",
+            "2024-03-10 08:20:40",
+            "2024-03-10 08:35:40",
+            "2024-03-10 08:50:40",
+            "2024-03-10 09:05:40",
+            "2024-03-10 09:20:40"
+        ],
+        "sliding_window_comments": [
+            12,
+            9,
+            9,
+            6,
+            11,
+            16,
+            12
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 13
+    },
+    "340330": {
+        "sliding_window_timestamps": [
+            "2024-03-17 07:51:25",
+            "2024-03-17 08:06:25",
+            "2024-03-17 08:21:25",
+            "2024-03-17 08:36:25",
+            "2024-03-17 08:51:25",
+            "2024-03-17 09:06:25",
+            "2024-03-17 09:21:25"
+        ],
+        "sliding_window_comments": [
+            8,
+            4,
+            8,
+            6,
+            9,
+            3,
+            9
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 6
+    },
+    "340331": {
+        "sliding_window_timestamps": [
+            "2024-03-24 07:58:56",
+            "2024-03-24 08:13:56",
+            "2024-03-24 08:28:56",
+            "2024-03-24 08:43:56",
+            "2024-03-24 08:58:56",
+            "2024-03-24 09:13:56",
+            "2024-03-24 09:28:56"
+        ],
+        "sliding_window_comments": [
+            18,
+            23,
+            6,
+            21,
+            10,
+            8,
+            4
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-24 08:40:18"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 9
+    },
+    "340374": {
+        "sliding_window_timestamps": [
+            "2024-03-07 14:45:43",
+            "2024-03-07 15:00:43",
+            "2024-03-07 15:15:43",
+            "2024-03-07 15:30:43",
+            "2024-03-07 15:45:43",
+            "2024-03-07 16:00:43"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            4,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-07 15:17:34",
+            "2024-03-07 15:21:52"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 1
+    },
+    "340375": {
+        "sliding_window_timestamps": [
+            "2024-03-14 14:48:43",
+            "2024-03-14 15:03:43",
+            "2024-03-14 15:18:43",
+            "2024-03-14 15:33:43"
+        ],
+        "sliding_window_comments": [
+            1,
+            2,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "340376": {
+        "sliding_window_timestamps": [
+            "2024-03-21 14:47:05",
+            "2024-03-21 15:02:05",
+            "2024-03-21 15:17:05",
+            "2024-03-21 15:32:05",
+            "2024-03-21 15:47:05",
+            "2024-03-21 16:02:05",
+            "2024-03-21 16:17:05"
+        ],
+        "sliding_window_comments": [
+            2,
+            1,
+            3,
+            0,
+            3,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "340377": {
+        "sliding_window_timestamps": [
+            "2024-03-28 14:46:59",
+            "2024-03-28 15:01:59",
+            "2024-03-28 15:16:59",
+            "2024-03-28 15:31:59",
+            "2024-03-28 15:46:59",
+            "2024-03-28 16:01:59",
+            "2024-03-28 16:16:59"
+        ],
+        "sliding_window_comments": [
+            4,
+            12,
+            3,
+            4,
+            3,
+            4,
+            5
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 9
+    },
+    "340413": {
+        "sliding_window_timestamps": [
+            "2024-03-02 12:58:02",
+            "2024-03-02 13:13:02",
+            "2024-03-02 13:28:02",
+            "2024-03-02 13:43:02",
+            "2024-03-02 13:58:02",
+            "2024-03-02 14:13:02",
+            "2024-03-02 14:28:02"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            3,
+            3,
+            0,
+            2,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "340414": {
+        "sliding_window_timestamps": [
+            "2024-03-09 12:52:59",
+            "2024-03-09 13:07:59",
+            "2024-03-09 13:22:59",
+            "2024-03-09 13:37:59",
+            "2024-03-09 13:52:59",
+            "2024-03-09 14:07:59",
+            "2024-03-09 14:22:59",
+            "2024-03-09 14:37:59"
+        ],
+        "sliding_window_comments": [
+            2,
+            4,
+            1,
+            0,
+            0,
+            0,
+            10,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 3
+    },
+    "340415": {
+        "sliding_window_timestamps": [
+            "2024-03-16 12:59:50",
+            "2024-03-16 13:14:50",
+            "2024-03-16 13:29:50",
+            "2024-03-16 13:44:50",
+            "2024-03-16 13:59:50",
+            "2024-03-16 14:14:50",
+            "2024-03-16 14:29:50"
+        ],
+        "sliding_window_comments": [
+            1,
+            5,
+            0,
+            1,
+            0,
+            0,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 1
+    },
+    "340416": {
+        "sliding_window_timestamps": [
+            "2024-03-23 12:53:29",
+            "2024-03-23 13:08:29",
+            "2024-03-23 13:23:29",
+            "2024-03-23 13:38:29",
+            "2024-03-23 13:53:29",
+            "2024-03-23 14:08:29",
+            "2024-03-23 14:23:29"
+        ],
+        "sliding_window_comments": [
+            3,
+            2,
+            3,
+            0,
+            3,
+            6,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 2
+    },
+    "340417": {
+        "sliding_window_timestamps": [
+            "2024-03-30 12:54:03",
+            "2024-03-30 13:09:03",
+            "2024-03-30 13:24:03",
+            "2024-03-30 13:39:03",
+            "2024-03-30 13:54:03",
+            "2024-03-30 14:09:03",
+            "2024-03-30 14:24:03"
+        ],
+        "sliding_window_comments": [
+            4,
+            7,
+            2,
+            7,
+            6,
+            3,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 2
+    },
+    "340458": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:50:59",
+            "2024-03-03 10:05:59",
+            "2024-03-03 10:20:59",
+            "2024-03-03 10:35:59",
+            "2024-03-03 10:50:59",
+            "2024-03-03 11:05:59",
+            "2024-03-03 11:20:59"
+        ],
+        "sliding_window_comments": [
+            3,
+            7,
+            7,
+            1,
+            1,
+            8,
+            9
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 1
+    },
+    "340459": {
+        "sliding_window_timestamps": [
+            "2024-03-10 09:52:48",
+            "2024-03-10 10:07:48",
+            "2024-03-10 10:22:48",
+            "2024-03-10 10:37:48",
+            "2024-03-10 10:52:48",
+            "2024-03-10 11:07:48",
+            "2024-03-10 11:22:48"
+        ],
+        "sliding_window_comments": [
+            7,
+            4,
+            2,
+            4,
+            6,
+            3,
+            13
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 3
+    },
+    "340460": {
+        "sliding_window_timestamps": [
+            "2024-03-17 09:50:37",
+            "2024-03-17 10:05:37",
+            "2024-03-17 10:20:37",
+            "2024-03-17 10:35:37",
+            "2024-03-17 10:50:37",
+            "2024-03-17 11:05:37",
+            "2024-03-17 11:20:37",
+            "2024-03-17 11:35:37"
+        ],
+        "sliding_window_comments": [
+            1,
+            6,
+            0,
+            1,
+            3,
+            2,
+            3,
+            8
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 4
+    },
+    "340461": {
+        "sliding_window_timestamps": [
+            "2024-03-24 09:50:35",
+            "2024-03-24 10:05:35",
+            "2024-03-24 10:20:35",
+            "2024-03-24 10:35:35",
+            "2024-03-24 10:50:35",
+            "2024-03-24 11:05:35",
+            "2024-03-24 11:20:35"
+        ],
+        "sliding_window_comments": [
+            2,
+            10,
+            18,
+            14,
+            6,
+            1,
+            11
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 2
+    },
+    "340462": {
+        "sliding_window_timestamps": [
+            "2024-03-31 09:51:14",
+            "2024-03-31 10:06:14",
+            "2024-03-31 10:21:14",
+            "2024-03-31 10:36:14",
+            "2024-03-31 10:51:14",
+            "2024-03-31 11:06:14",
+            "2024-03-31 11:21:14"
+        ],
+        "sliding_window_comments": [
+            2,
+            14,
+            4,
+            1,
+            1,
+            9,
+            7
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 0
+    },
+    "342022": {
+        "sliding_window_timestamps": [
+            "2024-03-17 11:50:43",
+            "2024-03-17 12:05:43"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "342023": {
+        "sliding_window_timestamps": [
+            "2024-03-24 11:41:56",
+            "2024-03-24 11:56:56",
+            "2024-03-24 12:11:56",
+            "2024-03-24 12:26:56",
+            "2024-03-24 12:41:56",
+            "2024-03-24 12:56:56"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "342024": {
+        "sliding_window_timestamps": [
+            "2024-03-31 11:43:17",
+            "2024-03-31 11:58:17",
+            "2024-03-31 12:13:17",
+            "2024-03-31 12:28:17",
+            "2024-03-31 12:43:17"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "347519": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:50:42",
+            "2024-03-03 08:05:42",
+            "2024-03-03 08:20:42",
+            "2024-03-03 08:35:42",
+            "2024-03-03 08:50:42",
+            "2024-03-03 09:05:42",
+            "2024-03-03 09:20:42"
+        ],
+        "sliding_window_comments": [
+            0,
+            3,
+            3,
+            1,
+            1,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 5
+    },
+    "347520": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:50:24",
+            "2024-03-10 08:05:24",
+            "2024-03-10 08:20:24",
+            "2024-03-10 08:35:24",
+            "2024-03-10 08:50:24",
+            "2024-03-10 09:05:24",
+            "2024-03-10 09:20:24",
+            "2024-03-10 09:35:24"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            3,
+            1,
+            0,
+            0,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "347521": {
+        "sliding_window_timestamps": [
+            "2024-03-17 07:50:10",
+            "2024-03-17 08:05:10",
+            "2024-03-17 08:20:10",
+            "2024-03-17 08:35:10",
+            "2024-03-17 08:50:10"
+        ],
+        "sliding_window_comments": [
+            2,
+            2,
+            1,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "347522": {
+        "sliding_window_timestamps": [
+            "2024-03-24 07:50:10",
+            "2024-03-24 08:05:10",
+            "2024-03-24 08:20:10",
+            "2024-03-24 08:35:10",
+            "2024-03-24 08:50:10",
+            "2024-03-24 09:05:10",
+            "2024-03-24 09:20:10"
+        ],
+        "sliding_window_comments": [
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "347553": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:46:35",
+            "2024-03-03 08:01:35",
+            "2024-03-03 08:16:35",
+            "2024-03-03 08:31:35",
+            "2024-03-03 08:46:35",
+            "2024-03-03 09:01:35",
+            "2024-03-03 09:16:35"
+        ],
+        "sliding_window_comments": [
+            5,
+            7,
+            9,
+            7,
+            5,
+            6,
+            7
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 4
+    },
+    "347956": {
+        "sliding_window_timestamps": [
+            "2024-03-17 08:44:11",
+            "2024-03-17 08:59:11",
+            "2024-03-17 09:14:11",
+            "2024-03-17 09:29:11"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 3
+    },
+    "348227": {
+        "sliding_window_timestamps": [
+            "2024-03-23 12:50:11",
+            "2024-03-23 13:05:11",
+            "2024-03-23 13:20:11"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "350763": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:45:56",
+            "2024-03-10 08:00:56",
+            "2024-03-10 08:15:56",
+            "2024-03-10 08:30:56",
+            "2024-03-10 08:45:56"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            2,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-10 08:55:01"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "351100": {
+        "sliding_window_timestamps": [
+            "2024-03-17 09:44:31",
+            "2024-03-17 09:59:31",
+            "2024-03-17 10:14:31",
+            "2024-03-17 10:29:31",
+            "2024-03-17 10:44:31",
+            "2024-03-17 10:59:31",
+            "2024-03-17 11:14:31",
+            "2024-03-17 11:29:31"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            0,
+            4,
+            2,
+            0,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 4
+    },
+    "351101": {
+        "sliding_window_timestamps": [
+            "2024-03-24 09:45:01",
+            "2024-03-24 10:00:01",
+            "2024-03-24 10:15:01",
+            "2024-03-24 10:30:01",
+            "2024-03-24 10:45:01",
+            "2024-03-24 11:00:01",
+            "2024-03-24 11:15:01",
+            "2024-03-24 11:30:01"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            2,
+            7,
+            0,
+            1,
+            1,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 1
+    },
+    "351102": {
+        "sliding_window_timestamps": [
+            "2024-03-31 10:39:20",
+            "2024-03-31 10:54:20",
+            "2024-03-31 11:09:20",
+            "2024-03-31 11:24:20"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 2
+    },
+    "352057": {
+        "sliding_window_timestamps": [
+            "2024-03-12 14:51:42"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "352059": {
+        "sliding_window_timestamps": [
+            "2024-03-26 14:51:14"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "352174": {
+        "sliding_window_timestamps": [
+            "2024-03-02 12:50:24",
+            "2024-03-02 13:05:24",
+            "2024-03-02 13:20:24",
+            "2024-03-02 13:35:24",
+            "2024-03-02 13:50:24",
+            "2024-03-02 14:05:24",
+            "2024-03-02 14:20:24",
+            "2024-03-02 14:35:24"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            2,
+            0,
+            1,
+            2,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-02 14:07:10"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "352176": {
+        "sliding_window_timestamps": [
+            "2024-03-16 12:46:48",
+            "2024-03-16 13:01:48"
+        ],
+        "sliding_window_comments": [
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "358380": {
+        "sliding_window_timestamps": [
+            "2024-03-24 09:41:31",
+            "2024-03-24 09:56:31",
+            "2024-03-24 10:11:31",
+            "2024-03-24 10:26:31"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 1
+    },
+    "358381": {
+        "sliding_window_timestamps": [
+            "2024-03-31 09:37:53",
+            "2024-03-31 09:52:53",
+            "2024-03-31 10:07:53",
+            "2024-03-31 10:22:53",
+            "2024-03-31 10:37:53",
+            "2024-03-31 10:52:53",
+            "2024-03-31 11:07:53"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "358936": {
+        "sliding_window_timestamps": [
+            "2024-03-02 14:44:55",
+            "2024-03-02 14:59:55",
+            "2024-03-02 15:14:55"
+        ],
+        "sliding_window_comments": [
+            0,
+            3,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "358940": {
+        "sliding_window_timestamps": [
+            "2024-03-30 14:45:16",
+            "2024-03-30 15:00:16",
+            "2024-03-30 15:15:16",
+            "2024-03-30 15:30:16"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            1,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "359015": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:50:14",
+            "2024-03-03 08:05:14",
+            "2024-03-03 08:20:14",
+            "2024-03-03 08:35:14",
+            "2024-03-03 08:50:14",
+            "2024-03-03 09:05:14",
+            "2024-03-03 09:20:14",
+            "2024-03-03 09:35:14"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-03 09:39:50"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "359116": {
+        "sliding_window_timestamps": [
+            "2024-03-24 09:50:21",
+            "2024-03-24 10:05:21",
+            "2024-03-24 10:20:21",
+            "2024-03-24 10:35:21",
+            "2024-03-24 10:50:21",
+            "2024-03-24 11:05:21",
+            "2024-03-24 11:20:21",
+            "2024-03-24 11:35:21",
+            "2024-03-24 11:50:21"
+        ],
+        "sliding_window_comments": [
+            0,
+            6,
+            1,
+            2,
+            7,
+            5,
+            13,
+            6,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 8
+    },
+    "359117": {
+        "sliding_window_timestamps": [
+            "2024-03-31 11:15:19"
+        ],
+        "sliding_window_comments": [
+            7
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "359208": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:50:19",
+            "2024-03-03 10:05:19",
+            "2024-03-03 10:20:19",
+            "2024-03-03 10:35:19",
+            "2024-03-03 10:50:19",
+            "2024-03-03 11:05:19",
+            "2024-03-03 11:20:19"
+        ],
+        "sliding_window_comments": [
+            0,
+            6,
+            8,
+            3,
+            0,
+            5,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 3
+    },
+    "359210": {
+        "sliding_window_timestamps": [
+            "2024-03-17 09:50:54",
+            "2024-03-17 10:05:54",
+            "2024-03-17 10:20:54",
+            "2024-03-17 10:35:54",
+            "2024-03-17 10:50:54",
+            "2024-03-17 11:05:54",
+            "2024-03-17 11:20:54"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            4,
+            2,
+            1,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 5
+    },
+    "359212": {
+        "sliding_window_timestamps": [
+            "2024-03-31 09:50:30",
+            "2024-03-31 10:05:30",
+            "2024-03-31 10:20:30",
+            "2024-03-31 10:35:30",
+            "2024-03-31 10:50:30",
+            "2024-03-31 11:05:30",
+            "2024-03-31 11:20:30"
+        ],
+        "sliding_window_comments": [
+            0,
+            6,
+            4,
+            3,
+            1,
+            0,
+            10
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-31 11:28:50"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 8
+    },
+    "359403": {
+        "sliding_window_timestamps": [
+            "2024-03-09 12:50:37",
+            "2024-03-09 13:05:37",
+            "2024-03-09 13:20:37",
+            "2024-03-09 13:35:37",
+            "2024-03-09 13:50:37"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "359406": {
+        "sliding_window_timestamps": [
+            "2024-03-30 13:37:02",
+            "2024-03-30 13:52:02",
+            "2024-03-30 14:07:02",
+            "2024-03-30 14:22:02"
+        ],
+        "sliding_window_comments": [
+            0,
+            7,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-30 13:52:55",
+            "2024-03-30 13:53:32",
+            "2024-03-30 13:54:16",
+            "2024-03-30 13:54:46",
+            "2024-03-30 13:55:15",
+            "2024-03-30 13:57:03",
+            "2024-03-30 13:59:09",
+            "2024-03-30 14:09:10"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "359823": {
+        "sliding_window_timestamps": [
+            "2024-03-23 12:51:19",
+            "2024-03-23 13:06:19",
+            "2024-03-23 13:21:19",
+            "2024-03-23 13:36:19",
+            "2024-03-23 13:51:19",
+            "2024-03-23 14:06:19"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "359928": {
+        "sliding_window_timestamps": [
+            "2024-03-03 07:50:43",
+            "2024-03-03 08:05:43",
+            "2024-03-03 08:20:43",
+            "2024-03-03 08:35:43",
+            "2024-03-03 08:50:43",
+            "2024-03-03 09:05:43",
+            "2024-03-03 09:20:43",
+            "2024-03-03 09:35:43"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-03 09:14:14",
+            "2024-03-03 09:41:07"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "360672": {
+        "sliding_window_timestamps": [
+            "2024-03-30 14:50:42",
+            "2024-03-30 15:05:42"
+        ],
+        "sliding_window_comments": [
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "361309": {
+        "sliding_window_timestamps": [
+            "2024-03-29 14:50:07",
+            "2024-03-29 15:05:07",
+            "2024-03-29 15:20:07",
+            "2024-03-29 15:35:07",
+            "2024-03-29 15:50:07",
+            "2024-03-29 16:05:07",
+            "2024-03-29 16:20:07",
+            "2024-03-29 16:35:07"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "361631": {
+        "sliding_window_timestamps": [
+            "2024-03-31 07:51:09",
+            "2024-03-31 08:06:09",
+            "2024-03-31 08:21:09"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "362431": {
+        "sliding_window_timestamps": [
+            "2024-03-17 09:51:27",
+            "2024-03-17 10:06:27",
+            "2024-03-17 10:21:27",
+            "2024-03-17 10:36:27",
+            "2024-03-17 10:51:27",
+            "2024-03-17 11:06:27",
+            "2024-03-17 11:21:27"
+        ],
+        "sliding_window_comments": [
+            2,
+            1,
+            5,
+            1,
+            2,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "362432": {
+        "sliding_window_timestamps": [
+            "2024-03-24 09:51:54",
+            "2024-03-24 10:06:54",
+            "2024-03-24 10:21:54",
+            "2024-03-24 10:36:54",
+            "2024-03-24 10:51:54",
+            "2024-03-24 11:06:54",
+            "2024-03-24 11:21:54"
+        ],
+        "sliding_window_comments": [
+            0,
+            6,
+            3,
+            10,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "High activity",
+        "count_spam": 4
+    },
+    "376071": {
+        "sliding_window_timestamps": [
+            "2024-03-23 12:50:16",
+            "2024-03-23 13:05:16",
+            "2024-03-23 13:20:16"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "376353": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:45:54",
+            "2024-03-03 10:00:54",
+            "2024-03-03 10:15:54",
+            "2024-03-03 10:30:54"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "376354": {
+        "sliding_window_timestamps": [
+            "2024-03-10 09:45:35",
+            "2024-03-10 10:00:35",
+            "2024-03-10 10:15:35",
+            "2024-03-10 10:30:35"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "377903": {
+        "sliding_window_timestamps": [
+            "2024-03-10 13:40:09",
+            "2024-03-10 13:55:09",
+            "2024-03-10 14:10:09",
+            "2024-03-10 14:25:09",
+            "2024-03-10 14:40:09",
+            "2024-03-10 14:55:09",
+            "2024-03-10 15:10:09"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "377905": {
+        "sliding_window_timestamps": [
+            "2024-03-24 13:52:32",
+            "2024-03-24 14:07:32",
+            "2024-03-24 14:22:32",
+            "2024-03-24 14:37:32",
+            "2024-03-24 14:52:32",
+            "2024-03-24 15:07:32"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "378193": {
+        "sliding_window_timestamps": [
+            "2024-03-17 07:51:51",
+            "2024-03-17 08:06:51",
+            "2024-03-17 08:21:51",
+            "2024-03-17 08:36:51"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "378290": {
+        "sliding_window_timestamps": [
+            "2024-03-09 08:46:07",
+            "2024-03-09 09:01:07",
+            "2024-03-09 09:16:07",
+            "2024-03-09 09:31:07",
+            "2024-03-09 09:46:07"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "378642": {
+        "sliding_window_timestamps": [
+            "2024-03-09 10:50:40",
+            "2024-03-09 11:05:40",
+            "2024-03-09 11:20:40"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "378814": {
+        "sliding_window_timestamps": [
+            "2024-03-26 15:05:32",
+            "2024-03-26 15:20:32",
+            "2024-03-26 15:35:32",
+            "2024-03-26 15:50:32"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-26 15:47:01",
+            "2024-03-26 15:58:53"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "380601": {
+        "sliding_window_timestamps": [
+            "2024-03-06 14:54:48",
+            "2024-03-06 15:09:48",
+            "2024-03-06 15:24:48",
+            "2024-03-06 15:39:48",
+            "2024-03-06 15:54:48"
+        ],
+        "sliding_window_comments": [
+            1,
+            1,
+            13,
+            3,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 12
+    },
+    "386220": {
+        "sliding_window_timestamps": [
+            "2024-03-12 14:45:31",
+            "2024-03-12 15:00:31",
+            "2024-03-12 15:15:31",
+            "2024-03-12 15:30:31",
+            "2024-03-12 15:45:31",
+            "2024-03-12 16:00:31",
+            "2024-03-12 16:15:31",
+            "2024-03-12 16:30:31"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            7,
+            0,
+            5
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-12 16:03:18"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 2
+    },
+    "386221": {
+        "sliding_window_timestamps": [
+            "2024-03-19 14:47:16",
+            "2024-03-19 15:02:16",
+            "2024-03-19 15:17:16",
+            "2024-03-19 15:32:16",
+            "2024-03-19 15:47:16",
+            "2024-03-19 16:02:16",
+            "2024-03-19 16:17:16"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "386222": {
+        "sliding_window_timestamps": [
+            "2024-03-26 14:48:21",
+            "2024-03-26 15:03:21",
+            "2024-03-26 15:18:21",
+            "2024-03-26 15:33:21",
+            "2024-03-26 15:48:21",
+            "2024-03-26 16:03:21",
+            "2024-03-26 16:18:21"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "387615": {
+        "sliding_window_timestamps": [
+            "2024-03-07 14:49:59",
+            "2024-03-07 15:04:59",
+            "2024-03-07 15:19:59",
+            "2024-03-07 15:34:59",
+            "2024-03-07 15:49:59",
+            "2024-03-07 16:04:59",
+            "2024-03-07 16:19:59",
+            "2024-03-07 16:34:59",
+            "2024-03-07 16:49:59"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "387616": {
+        "sliding_window_timestamps": [
+            "2024-03-14 14:50:12",
+            "2024-03-14 15:05:12",
+            "2024-03-14 15:20:12",
+            "2024-03-14 15:35:12",
+            "2024-03-14 15:50:12"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 2
+    },
+    "387618": {
+        "sliding_window_timestamps": [
+            "2024-03-28 14:49:41",
+            "2024-03-28 15:04:41",
+            "2024-03-28 15:19:41",
+            "2024-03-28 15:34:41",
+            "2024-03-28 15:49:41",
+            "2024-03-28 16:04:41",
+            "2024-03-28 16:19:41"
+        ],
+        "sliding_window_comments": [
+            1,
+            6,
+            0,
+            4,
+            2,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 2
+    },
+    "387680": {
+        "sliding_window_timestamps": [
+            "2024-03-31 07:58:49",
+            "2024-03-31 08:13:49",
+            "2024-03-31 08:28:49",
+            "2024-03-31 08:43:49",
+            "2024-03-31 08:58:49",
+            "2024-03-31 09:13:49",
+            "2024-03-31 09:28:49"
+        ],
+        "sliding_window_comments": [
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "394411": {
+        "sliding_window_timestamps": [
+            "2024-03-23 10:53:22",
+            "2024-03-23 11:08:22"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "394603": {
+        "sliding_window_timestamps": [
+            "2024-03-06 14:44:57",
+            "2024-03-06 14:59:57",
+            "2024-03-06 15:14:57",
+            "2024-03-06 15:29:57",
+            "2024-03-06 15:44:57",
+            "2024-03-06 15:59:57",
+            "2024-03-06 16:14:57",
+            "2024-03-06 16:29:57",
+            "2024-03-06 16:44:57"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "394605": {
+        "sliding_window_timestamps": [
+            "2024-03-20 14:50:08",
+            "2024-03-20 15:05:08",
+            "2024-03-20 15:20:08",
+            "2024-03-20 15:35:08"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-20 15:36:37"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "394606": {
+        "sliding_window_timestamps": [
+            "2024-03-27 14:50:18",
+            "2024-03-27 15:05:18",
+            "2024-03-27 15:20:18",
+            "2024-03-27 15:35:18",
+            "2024-03-27 15:50:18",
+            "2024-03-27 16:05:18",
+            "2024-03-27 16:20:18"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "395288": {
+        "sliding_window_timestamps": [
+            "2024-03-17 09:50:26",
+            "2024-03-17 10:05:26",
+            "2024-03-17 10:20:26",
+            "2024-03-17 10:35:26",
+            "2024-03-17 10:50:26",
+            "2024-03-17 11:05:26",
+            "2024-03-17 11:20:26"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "395290": {
+        "sliding_window_timestamps": [
+            "2024-03-31 09:50:38",
+            "2024-03-31 10:05:38",
+            "2024-03-31 10:20:38",
+            "2024-03-31 10:35:38",
+            "2024-03-31 10:50:38"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "398403": {
+        "sliding_window_timestamps": [
+            "2024-03-04 16:53:39",
+            "2024-03-04 17:08:39",
+            "2024-03-04 17:23:39",
+            "2024-03-04 17:38:39",
+            "2024-03-04 17:53:39",
+            "2024-03-04 18:08:39",
+            "2024-03-04 18:23:39",
+            "2024-03-04 18:38:39",
+            "2024-03-04 18:53:39",
+            "2024-03-04 19:08:39"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            2,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "398405": {
+        "sliding_window_timestamps": [
+            "2024-03-11 16:53:41",
+            "2024-03-11 17:08:41",
+            "2024-03-11 17:23:41",
+            "2024-03-11 17:38:41",
+            "2024-03-11 17:53:41",
+            "2024-03-11 18:08:41",
+            "2024-03-11 18:23:41",
+            "2024-03-11 18:38:41",
+            "2024-03-11 18:53:41",
+            "2024-03-11 19:08:41",
+            "2024-03-11 19:23:41",
+            "2024-03-11 19:38:41",
+            "2024-03-11 19:53:41"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "399147": {
+        "sliding_window_timestamps": [
+            "2024-03-25 16:48:22",
+            "2024-03-25 17:03:22",
+            "2024-03-25 17:18:22",
+            "2024-03-25 17:33:22"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-25 17:28:32",
+            "2024-03-25 17:38:49"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "399672": {
+        "sliding_window_timestamps": [
+            "2024-03-19 14:46:42",
+            "2024-03-19 15:01:42",
+            "2024-03-19 15:16:42",
+            "2024-03-19 15:31:42"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "400056": {
+        "sliding_window_timestamps": [
+            "2024-03-02 12:50:15",
+            "2024-03-02 13:05:15",
+            "2024-03-02 13:20:15",
+            "2024-03-02 13:35:15",
+            "2024-03-02 13:50:15",
+            "2024-03-02 14:05:15",
+            "2024-03-02 14:20:15"
+        ],
+        "sliding_window_comments": [
+            2,
+            1,
+            0,
+            0,
+            0,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "400057": {
+        "sliding_window_timestamps": [
+            "2024-03-09 12:50:28",
+            "2024-03-09 13:05:28",
+            "2024-03-09 13:20:28",
+            "2024-03-09 13:35:28",
+            "2024-03-09 13:50:28",
+            "2024-03-09 14:05:28",
+            "2024-03-09 14:20:28"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            1,
+            0,
+            2,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "400058": {
+        "sliding_window_timestamps": [
+            "2024-03-16 12:50:15",
+            "2024-03-16 13:05:15",
+            "2024-03-16 13:20:15",
+            "2024-03-16 13:35:15",
+            "2024-03-16 13:50:15",
+            "2024-03-16 14:05:15"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "400247": {
+        "sliding_window_timestamps": [
+            "2024-03-02 08:51:32",
+            "2024-03-02 09:06:32",
+            "2024-03-02 09:21:32",
+            "2024-03-02 09:36:32",
+            "2024-03-02 09:51:32",
+            "2024-03-02 10:06:32",
+            "2024-03-02 10:21:32"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "400248": {
+        "sliding_window_timestamps": [
+            "2024-03-09 08:57:14"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "400249": {
+        "sliding_window_timestamps": [
+            "2024-03-16 08:52:41",
+            "2024-03-16 09:07:41",
+            "2024-03-16 09:22:41",
+            "2024-03-16 09:37:41",
+            "2024-03-16 09:52:41",
+            "2024-03-16 10:07:41"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "400573": {
+        "sliding_window_timestamps": [
+            "2024-03-09 12:44:42",
+            "2024-03-09 12:59:42"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "400639": {
+        "sliding_window_timestamps": [
+            "2024-03-03 09:50:11",
+            "2024-03-03 10:05:11",
+            "2024-03-03 10:20:11",
+            "2024-03-03 10:35:11",
+            "2024-03-03 10:50:11",
+            "2024-03-03 11:05:11",
+            "2024-03-03 11:20:11"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "400642": {
+        "sliding_window_timestamps": [
+            "2024-03-24 09:44:31",
+            "2024-03-24 09:59:31",
+            "2024-03-24 10:14:31",
+            "2024-03-24 10:29:31",
+            "2024-03-24 10:44:31",
+            "2024-03-24 10:59:31",
+            "2024-03-24 11:14:31"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "405681": {
+        "sliding_window_timestamps": [
+            "2024-03-19 14:50:12",
+            "2024-03-19 15:05:12",
+            "2024-03-19 15:20:12",
+            "2024-03-19 15:35:12",
+            "2024-03-19 15:50:12"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "405965": {
+        "sliding_window_timestamps": [
+            "2024-03-04 16:59:38",
+            "2024-03-04 17:14:38",
+            "2024-03-04 17:29:38",
+            "2024-03-04 17:44:38",
+            "2024-03-04 17:59:38",
+            "2024-03-04 18:14:38",
+            "2024-03-04 18:29:38",
+            "2024-03-04 18:44:38"
+        ],
+        "sliding_window_comments": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "406028": {
+        "sliding_window_timestamps": [
+            "2024-03-09 14:51:11",
+            "2024-03-09 15:06:11",
+            "2024-03-09 15:21:11",
+            "2024-03-09 15:36:11",
+            "2024-03-09 15:51:11",
+            "2024-03-09 16:06:11",
+            "2024-03-09 16:21:11"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            5,
+            3,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "406030": {
+        "sliding_window_timestamps": [
+            "2024-03-23 14:50:10",
+            "2024-03-23 15:05:10",
+            "2024-03-23 15:20:10",
+            "2024-03-23 15:35:10",
+            "2024-03-23 15:50:10",
+            "2024-03-23 16:05:10"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            5
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "406031": {
+        "sliding_window_timestamps": [
+            "2024-03-30 14:50:11",
+            "2024-03-30 15:05:11",
+            "2024-03-30 15:20:11",
+            "2024-03-30 15:35:11",
+            "2024-03-30 15:50:11",
+            "2024-03-30 16:05:11",
+            "2024-03-30 16:20:11"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            3,
+            2,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "406082": {
+        "sliding_window_timestamps": [
+            "2024-03-21 16:58:51",
+            "2024-03-21 17:13:51",
+            "2024-03-21 17:28:51",
+            "2024-03-21 17:43:51",
+            "2024-03-21 17:58:51",
+            "2024-03-21 18:13:51",
+            "2024-03-21 18:28:51"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-21 18:30:05"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "406844": {
+        "sliding_window_timestamps": [
+            "2024-03-04 16:57:24",
+            "2024-03-04 17:12:24",
+            "2024-03-04 17:27:24",
+            "2024-03-04 17:42:24"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "406850": {
+        "sliding_window_timestamps": [
+            "2024-03-18 16:51:18",
+            "2024-03-18 17:06:18",
+            "2024-03-18 17:21:18"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-18 17:29:59"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "406912": {
+        "sliding_window_timestamps": [
+            "2024-03-05 16:51:46",
+            "2024-03-05 17:06:46",
+            "2024-03-05 17:21:46",
+            "2024-03-05 17:36:46",
+            "2024-03-05 17:51:46"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-05 17:56:10"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "407718": {
+        "sliding_window_timestamps": [
+            "2024-03-01 16:50:57",
+            "2024-03-01 17:05:57",
+            "2024-03-01 17:20:57",
+            "2024-03-01 17:35:57"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "407781": {
+        "sliding_window_timestamps": [
+            "2024-03-01 16:50:45",
+            "2024-03-01 17:05:45",
+            "2024-03-01 17:20:45",
+            "2024-03-01 17:35:45",
+            "2024-03-01 17:50:45",
+            "2024-03-01 18:05:45"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "407782": {
+        "sliding_window_timestamps": [
+            "2024-03-05 17:11:34"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "407810": {
+        "sliding_window_timestamps": [
+            "2024-03-07 16:58:26",
+            "2024-03-07 17:13:26",
+            "2024-03-07 17:28:26",
+            "2024-03-07 17:43:26",
+            "2024-03-07 17:58:26",
+            "2024-03-07 18:13:26",
+            "2024-03-07 18:28:26",
+            "2024-03-07 18:43:26"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            1,
+            1,
+            3,
+            3,
+            0,
+            6
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-07 18:20:54",
+            "2024-03-07 18:45:05",
+            "2024-03-07 18:52:22",
+            "2024-03-07 18:53:24"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "407811": {
+        "sliding_window_timestamps": [
+            "2024-03-11 16:54:37",
+            "2024-03-11 17:09:37",
+            "2024-03-11 17:24:37",
+            "2024-03-11 17:39:37",
+            "2024-03-11 17:54:37",
+            "2024-03-11 18:09:37",
+            "2024-03-11 18:24:37"
+        ],
+        "sliding_window_comments": [
+            2,
+            3,
+            0,
+            0,
+            2,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-11 17:02:45"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "408707": {
+        "sliding_window_timestamps": [
+            "2024-03-18 16:58:07",
+            "2024-03-18 17:13:07",
+            "2024-03-18 17:28:07",
+            "2024-03-18 17:43:07",
+            "2024-03-18 17:58:07",
+            "2024-03-18 18:13:07",
+            "2024-03-18 18:28:07",
+            "2024-03-18 18:43:07"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-18 18:09:39"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "408750": {
+        "sliding_window_timestamps": [
+            "2024-03-04 16:56:26",
+            "2024-03-04 17:11:26"
+        ],
+        "sliding_window_comments": [
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "408856": {
+        "sliding_window_timestamps": [
+            "2024-03-13 16:57:18",
+            "2024-03-13 17:12:18",
+            "2024-03-13 17:27:18",
+            "2024-03-13 17:42:18",
+            "2024-03-13 17:57:18",
+            "2024-03-13 18:12:18",
+            "2024-03-13 18:27:18"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "408950": {
+        "sliding_window_timestamps": [
+            "2024-03-09 06:49:33",
+            "2024-03-09 07:04:33",
+            "2024-03-09 07:19:33",
+            "2024-03-09 07:34:33",
+            "2024-03-09 07:49:33",
+            "2024-03-09 08:04:33"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "409033": {
+        "sliding_window_timestamps": [
+            "2024-03-14 16:53:31",
+            "2024-03-14 17:08:31",
+            "2024-03-14 17:23:31",
+            "2024-03-14 17:38:31",
+            "2024-03-14 17:53:31",
+            "2024-03-14 18:08:31",
+            "2024-03-14 18:23:31",
+            "2024-03-14 18:38:31",
+            "2024-03-14 18:53:31"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-14 17:46:17",
+            "2024-03-14 19:04:58"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "409709": {
+        "sliding_window_timestamps": [
+            "2024-03-11 16:50:45",
+            "2024-03-11 17:05:45",
+            "2024-03-11 17:20:45",
+            "2024-03-11 17:35:45"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "409710": {
+        "sliding_window_timestamps": [
+            "2024-03-14 16:50:58",
+            "2024-03-14 17:05:58",
+            "2024-03-14 17:20:58",
+            "2024-03-14 17:35:58",
+            "2024-03-14 17:50:58",
+            "2024-03-14 18:05:58"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            1,
+            3,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "410799": {
+        "sliding_window_timestamps": [
+            "2024-03-14 16:50:49",
+            "2024-03-14 17:05:49"
+        ],
+        "sliding_window_comments": [
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "410800": {
+        "sliding_window_timestamps": [
+            "2024-03-18 17:38:21",
+            "2024-03-18 17:53:21",
+            "2024-03-18 18:08:21",
+            "2024-03-18 18:23:21",
+            "2024-03-18 18:38:21",
+            "2024-03-18 18:53:21",
+            "2024-03-18 19:08:21"
+        ],
+        "sliding_window_comments": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-18 17:41:23",
+            "2024-03-18 17:48:28",
+            "2024-03-18 18:03:18",
+            "2024-03-18 19:17:32"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "410801": {
+        "sliding_window_timestamps": [
+            "2024-03-21 16:55:05",
+            "2024-03-21 17:10:05"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "410802": {
+        "sliding_window_timestamps": [
+            "2024-03-25 16:57:07",
+            "2024-03-25 17:12:07",
+            "2024-03-25 17:27:07",
+            "2024-03-25 17:42:07",
+            "2024-03-25 17:57:07",
+            "2024-03-25 18:12:07",
+            "2024-03-25 18:27:07"
+        ],
+        "sliding_window_comments": [
+            3,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "411022": {
+        "sliding_window_timestamps": [
+            "2024-03-05 16:50:52",
+            "2024-03-05 17:05:52"
+        ],
+        "sliding_window_comments": [
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "411086": {
+        "sliding_window_timestamps": [
+            "2024-03-05 16:58:19",
+            "2024-03-05 17:13:19"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "411389": {
+        "sliding_window_timestamps": [
+            "2024-03-22 16:53:58",
+            "2024-03-22 17:08:58",
+            "2024-03-22 17:23:58",
+            "2024-03-22 17:38:58",
+            "2024-03-22 17:53:58",
+            "2024-03-22 18:08:58",
+            "2024-03-22 18:23:58"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-22 18:31:37"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "411390": {
+        "sliding_window_timestamps": [
+            "2024-03-26 16:50:41",
+            "2024-03-26 17:05:41",
+            "2024-03-26 17:20:41",
+            "2024-03-26 17:35:41",
+            "2024-03-26 17:50:41"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "411559": {
+        "sliding_window_timestamps": [
+            "2024-03-18 16:50:33",
+            "2024-03-18 17:05:33"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "411592": {
+        "sliding_window_timestamps": [
+            "2024-03-04 16:45:40",
+            "2024-03-04 17:00:40",
+            "2024-03-04 17:15:40",
+            "2024-03-04 17:30:40",
+            "2024-03-04 17:45:40"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "411768": {
+        "sliding_window_timestamps": [
+            "2024-03-04 15:39:44",
+            "2024-03-04 15:54:44"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "411792": {
+        "sliding_window_timestamps": [
+            "2024-03-25 16:54:16",
+            "2024-03-25 17:09:16",
+            "2024-03-25 17:24:16",
+            "2024-03-25 17:39:16",
+            "2024-03-25 17:54:16",
+            "2024-03-25 18:09:16",
+            "2024-03-25 18:24:16",
+            "2024-03-25 18:39:16",
+            "2024-03-25 18:54:16",
+            "2024-03-25 19:09:16",
+            "2024-03-25 19:24:16",
+            "2024-03-25 19:39:16",
+            "2024-03-25 19:54:16",
+            "2024-03-25 20:09:16",
+            "2024-03-25 20:24:16"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "411794": {
+        "sliding_window_timestamps": [
+            "2024-03-02 14:53:55",
+            "2024-03-02 15:08:55",
+            "2024-03-02 15:23:55",
+            "2024-03-02 15:38:55",
+            "2024-03-02 15:53:55",
+            "2024-03-02 16:08:55",
+            "2024-03-02 16:23:55"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "411796": {
+        "sliding_window_timestamps": [
+            "2024-03-16 14:56:58",
+            "2024-03-16 15:11:58",
+            "2024-03-16 15:26:58",
+            "2024-03-16 15:41:58",
+            "2024-03-16 15:56:58",
+            "2024-03-16 16:11:58",
+            "2024-03-16 16:26:58",
+            "2024-03-16 16:41:58"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "411797": {
+        "sliding_window_timestamps": [
+            "2024-03-23 14:47:40",
+            "2024-03-23 15:02:40",
+            "2024-03-23 15:17:40"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "412539": {
+        "sliding_window_timestamps": [
+            "2024-03-23 12:51:45",
+            "2024-03-23 13:06:45",
+            "2024-03-23 13:21:45"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "412603": {
+        "sliding_window_timestamps": [
+            "2024-03-21 14:49:22",
+            "2024-03-21 15:04:22",
+            "2024-03-21 15:19:22"
+        ],
+        "sliding_window_comments": [
+            1,
+            1,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "412765": {
+        "sliding_window_timestamps": [
+            "2024-03-17 13:50:49",
+            "2024-03-17 14:05:49",
+            "2024-03-17 14:20:49",
+            "2024-03-17 14:35:49",
+            "2024-03-17 14:50:49"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "412766": {
+        "sliding_window_timestamps": [
+            "2024-03-24 13:50:55",
+            "2024-03-24 14:05:55",
+            "2024-03-24 14:20:55",
+            "2024-03-24 14:35:55",
+            "2024-03-24 14:50:55",
+            "2024-03-24 15:05:55"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "413023": {
+        "sliding_window_timestamps": [
+            "2024-03-09 14:39:20",
+            "2024-03-09 14:54:20",
+            "2024-03-09 15:09:20",
+            "2024-03-09 15:24:20",
+            "2024-03-09 15:39:20",
+            "2024-03-09 15:54:20",
+            "2024-03-09 16:09:20",
+            "2024-03-09 16:24:20"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "414249": {
+        "sliding_window_timestamps": [
+            "2024-03-07 06:47:22"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "414341": {
+        "sliding_window_timestamps": [
+            "2024-03-16 06:53:18",
+            "2024-03-16 07:08:18",
+            "2024-03-16 07:23:18"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "414508": {
+        "sliding_window_timestamps": [
+            "2024-03-11 16:45:40",
+            "2024-03-11 17:00:40",
+            "2024-03-11 17:15:40"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "414592": {
+        "sliding_window_timestamps": [
+            "2024-03-07 07:50:54",
+            "2024-03-07 08:05:54",
+            "2024-03-07 08:20:54",
+            "2024-03-07 08:35:54"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "414600": {
+        "sliding_window_timestamps": [
+            "2024-03-01 11:04:09",
+            "2024-03-01 11:19:09",
+            "2024-03-01 11:34:09"
+        ],
+        "sliding_window_comments": [
+            3,
+            2,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "414605": {
+        "sliding_window_timestamps": [
+            "2024-03-19 11:09:20",
+            "2024-03-19 11:24:20",
+            "2024-03-19 11:39:20"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "414625": {
+        "sliding_window_timestamps": [
+            "2024-03-17 07:27:11",
+            "2024-03-17 07:42:11",
+            "2024-03-17 07:57:11",
+            "2024-03-17 08:12:11",
+            "2024-03-17 08:27:11",
+            "2024-03-17 08:42:11"
+        ],
+        "sliding_window_comments": [
+            2,
+            2,
+            0,
+            0,
+            1,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "414828": {
+        "sliding_window_timestamps": [
+            "2024-03-14 16:54:15",
+            "2024-03-14 17:09:15",
+            "2024-03-14 17:24:15",
+            "2024-03-14 17:39:15",
+            "2024-03-14 17:54:15",
+            "2024-03-14 18:09:15"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "414864": {
+        "sliding_window_timestamps": [
+            "2024-03-12 16:51:47",
+            "2024-03-12 17:06:47",
+            "2024-03-12 17:21:47",
+            "2024-03-12 17:36:47"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "414867": {
+        "sliding_window_timestamps": [
+            "2024-03-22 16:52:05",
+            "2024-03-22 17:07:05",
+            "2024-03-22 17:22:05",
+            "2024-03-22 17:37:05",
+            "2024-03-22 17:52:05",
+            "2024-03-22 18:07:05",
+            "2024-03-22 18:22:05",
+            "2024-03-22 18:37:05"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-22 18:11:35"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "414933": {
+        "sliding_window_timestamps": [
+            "2024-03-18 16:37:00",
+            "2024-03-18 16:52:00",
+            "2024-03-18 17:07:00",
+            "2024-03-18 17:22:00",
+            "2024-03-18 17:37:00",
+            "2024-03-18 17:52:00",
+            "2024-03-18 18:07:00"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "414934": {
+        "sliding_window_timestamps": [
+            "2024-03-21 16:44:18",
+            "2024-03-21 16:59:18",
+            "2024-03-21 17:14:18",
+            "2024-03-21 17:29:18",
+            "2024-03-21 17:44:18",
+            "2024-03-21 17:59:18",
+            "2024-03-21 18:14:18",
+            "2024-03-21 18:29:18",
+            "2024-03-21 18:44:18"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "414935": {
+        "sliding_window_timestamps": [
+            "2024-03-25 17:55:36",
+            "2024-03-25 18:10:36",
+            "2024-03-25 18:25:36",
+            "2024-03-25 18:40:36",
+            "2024-03-25 18:55:36",
+            "2024-03-25 19:10:36",
+            "2024-03-25 19:25:36"
+        ],
+        "sliding_window_comments": [
+            4,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "414936": {
+        "sliding_window_timestamps": [
+            "2024-03-28 16:41:14",
+            "2024-03-28 16:56:14",
+            "2024-03-28 17:11:14",
+            "2024-03-28 17:26:14"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "414994": {
+        "sliding_window_timestamps": [
+            "2024-03-25 16:52:42",
+            "2024-03-25 17:07:42"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-25 17:08:38"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "414995": {
+        "sliding_window_timestamps": [
+            "2024-03-28 16:54:37"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-28 17:04:35"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "415031": {
+        "sliding_window_timestamps": [
+            "2024-03-25 16:44:57",
+            "2024-03-25 16:59:57",
+            "2024-03-25 17:14:57"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "415970": {
+        "sliding_window_timestamps": [
+            "2024-03-01 14:45:29",
+            "2024-03-01 15:00:29",
+            "2024-03-01 15:15:29",
+            "2024-03-01 15:30:29"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-01 15:32:02"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "416059": {
+        "sliding_window_timestamps": [
+            "2024-03-17 11:54:18",
+            "2024-03-17 12:09:18",
+            "2024-03-17 12:24:18",
+            "2024-03-17 12:39:18",
+            "2024-03-17 12:54:18",
+            "2024-03-17 13:09:18"
+        ],
+        "sliding_window_comments": [
+            1,
+            2,
+            0,
+            4,
+            4,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-17 12:04:29",
+            "2024-03-17 12:43:18",
+            "2024-03-17 12:47:22",
+            "2024-03-17 13:08:16"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "416360": {
+        "sliding_window_timestamps": [
+            "2024-03-10 08:50:56",
+            "2024-03-10 09:05:56",
+            "2024-03-10 09:20:56"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "416361": {
+        "sliding_window_timestamps": [
+            "2024-03-16 08:55:27",
+            "2024-03-16 09:10:27",
+            "2024-03-16 09:25:27",
+            "2024-03-16 09:40:27"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "416710": {
+        "sliding_window_timestamps": [
+            "2024-03-29 16:50:41",
+            "2024-03-29 17:05:41",
+            "2024-03-29 17:20:41",
+            "2024-03-29 17:35:41"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-29 17:38:05",
+            "2024-03-29 17:38:13"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "417024": {
+        "sliding_window_timestamps": [
+            "2024-03-26 16:51:18"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-26 17:05:52"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "417025": {
+        "sliding_window_timestamps": [
+            "2024-03-29 16:50:52",
+            "2024-03-29 17:05:52"
+        ],
+        "sliding_window_comments": [
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "417474": {
+        "sliding_window_timestamps": [
+            "2024-03-07 17:52:10",
+            "2024-03-07 18:07:10",
+            "2024-03-07 18:22:10",
+            "2024-03-07 18:37:10",
+            "2024-03-07 18:52:10",
+            "2024-03-07 19:07:10",
+            "2024-03-07 19:22:10",
+            "2024-03-07 19:37:10",
+            "2024-03-07 19:52:10"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "417594": {
+        "sliding_window_timestamps": [
+            "2024-03-10 09:52:24",
+            "2024-03-10 10:07:24",
+            "2024-03-10 10:22:24",
+            "2024-03-10 10:37:24",
+            "2024-03-10 10:52:24"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "417626": {
+        "sliding_window_timestamps": [
+            "2024-03-24 06:52:19"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "417628": {
+        "sliding_window_timestamps": [
+            "2024-03-31 06:50:43",
+            "2024-03-31 07:05:43",
+            "2024-03-31 07:20:43",
+            "2024-03-31 07:35:43",
+            "2024-03-31 07:50:43",
+            "2024-03-31 08:05:43"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "417641": {
+        "sliding_window_timestamps": [
+            "2024-03-21 15:52:56",
+            "2024-03-21 16:07:56",
+            "2024-03-21 16:22:56"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "417674": {
+        "sliding_window_timestamps": [
+            "2024-03-11 16:50:34",
+            "2024-03-11 17:05:34",
+            "2024-03-11 17:20:34",
+            "2024-03-11 17:35:34",
+            "2024-03-11 17:50:34",
+            "2024-03-11 18:05:34",
+            "2024-03-11 18:20:34",
+            "2024-03-11 18:35:34"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 1
+    },
+    "417675": {
+        "sliding_window_timestamps": [
+            "2024-03-14 16:50:21",
+            "2024-03-14 17:05:21",
+            "2024-03-14 17:20:21",
+            "2024-03-14 17:35:21",
+            "2024-03-14 17:50:21",
+            "2024-03-14 18:05:21"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "417676": {
+        "sliding_window_timestamps": [
+            "2024-03-18 16:50:23"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "417677": {
+        "sliding_window_timestamps": [
+            "2024-03-10 06:51:15",
+            "2024-03-10 07:06:15",
+            "2024-03-10 07:21:15",
+            "2024-03-10 07:36:15"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "417678": {
+        "sliding_window_timestamps": [
+            "2024-03-16 06:49:52",
+            "2024-03-16 07:04:52",
+            "2024-03-16 07:19:52",
+            "2024-03-16 07:34:52",
+            "2024-03-16 07:49:52",
+            "2024-03-16 08:04:52"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "417707": {
+        "sliding_window_timestamps": [
+            "2024-03-31 08:00:20",
+            "2024-03-31 08:15:20",
+            "2024-03-31 08:30:20",
+            "2024-03-31 08:45:20",
+            "2024-03-31 09:00:20",
+            "2024-03-31 09:15:20",
+            "2024-03-31 09:30:20",
+            "2024-03-31 09:45:20",
+            "2024-03-31 10:00:20"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            1,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-31 08:59:16"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "417735": {
+        "sliding_window_timestamps": [
+            "2024-03-15 06:52:38",
+            "2024-03-15 07:07:38",
+            "2024-03-15 07:22:38",
+            "2024-03-15 07:37:38",
+            "2024-03-15 07:52:38",
+            "2024-03-15 08:07:38",
+            "2024-03-15 08:22:38"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "417751": {
+        "sliding_window_timestamps": [
+            "2024-03-29 16:48:07",
+            "2024-03-29 17:03:07"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-29 17:14:21"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "417848": {
+        "sliding_window_timestamps": [
+            "2024-03-10 06:49:16"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-10 06:59:58"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "418136": {
+        "sliding_window_timestamps": [
+            "2024-03-02 16:33:20"
+        ],
+        "sliding_window_comments": [
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "418215": {
+        "sliding_window_timestamps": [
+            "2024-03-07 16:53:44",
+            "2024-03-07 17:08:44"
+        ],
+        "sliding_window_comments": [
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "418238": {
+        "sliding_window_timestamps": [
+            "2024-03-10 07:50:39"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "418239": {
+        "sliding_window_timestamps": [
+            "2024-03-14 13:51:22",
+            "2024-03-14 14:06:22",
+            "2024-03-14 14:21:22",
+            "2024-03-14 14:36:22"
+        ],
+        "sliding_window_comments": [
+            1,
+            2,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-14 14:27:06",
+            "2024-03-14 14:33:18",
+            "2024-03-14 14:33:23",
+            "2024-03-14 14:47:33"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "418315": {
+        "sliding_window_timestamps": [
+            "2024-03-18 16:53:09",
+            "2024-03-18 17:08:09",
+            "2024-03-18 17:23:09",
+            "2024-03-18 17:38:09"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "418316": {
+        "sliding_window_timestamps": [
+            "2024-03-21 16:54:15",
+            "2024-03-21 17:09:15",
+            "2024-03-21 17:24:15",
+            "2024-03-21 17:39:15",
+            "2024-03-21 17:54:15",
+            "2024-03-21 18:09:15",
+            "2024-03-21 18:24:15",
+            "2024-03-21 18:39:15"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "418317": {
+        "sliding_window_timestamps": [
+            "2024-03-25 16:47:46",
+            "2024-03-25 17:02:46",
+            "2024-03-25 17:17:46"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "418318": {
+        "sliding_window_timestamps": [
+            "2024-03-28 16:51:10",
+            "2024-03-28 17:06:10",
+            "2024-03-28 17:21:10",
+            "2024-03-28 17:36:10",
+            "2024-03-28 17:51:10",
+            "2024-03-28 18:06:10",
+            "2024-03-28 18:21:10",
+            "2024-03-28 18:36:10",
+            "2024-03-28 18:51:10"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            1,
+            3,
+            0,
+            4,
+            3,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-28 18:26:23"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "418472": {
+        "sliding_window_timestamps": [
+            "2024-03-11 16:58:12",
+            "2024-03-11 17:13:12"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "418474": {
+        "sliding_window_timestamps": [
+            "2024-03-15 17:55:25",
+            "2024-03-15 18:10:25",
+            "2024-03-15 18:25:25",
+            "2024-03-15 18:40:25"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-15 18:44:54"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "418670": {
+        "sliding_window_timestamps": [
+            "2024-03-14 10:58:21",
+            "2024-03-14 11:13:21",
+            "2024-03-14 11:28:21",
+            "2024-03-14 11:43:21"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "419136": {
+        "sliding_window_timestamps": [
+            "2024-03-11 16:54:09",
+            "2024-03-11 17:09:09"
+        ],
+        "sliding_window_comments": [
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "419137": {
+        "sliding_window_timestamps": [
+            "2024-03-15 15:49:56",
+            "2024-03-15 16:04:56",
+            "2024-03-15 16:19:56",
+            "2024-03-15 16:34:56"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "419138": {
+        "sliding_window_timestamps": [
+            "2024-03-19 15:49:38"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "419139": {
+        "sliding_window_timestamps": [
+            "2024-03-22 15:47:50",
+            "2024-03-22 16:02:50",
+            "2024-03-22 16:17:50"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "419140": {
+        "sliding_window_timestamps": [
+            "2024-03-26 15:49:28",
+            "2024-03-26 16:04:28",
+            "2024-03-26 16:19:28",
+            "2024-03-26 16:34:28",
+            "2024-03-26 16:49:28",
+            "2024-03-26 17:04:28"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "419141": {
+        "sliding_window_timestamps": [
+            "2024-03-29 15:48:26",
+            "2024-03-29 16:03:26",
+            "2024-03-29 16:18:26",
+            "2024-03-29 16:33:26",
+            "2024-03-29 16:48:26",
+            "2024-03-29 17:03:26"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "419203": {
+        "sliding_window_timestamps": [
+            "2024-03-22 16:50:28",
+            "2024-03-22 17:05:28"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "419607": {
+        "sliding_window_timestamps": [
+            "2024-03-25 18:45:33"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "419908": {
+        "sliding_window_timestamps": [
+            "2024-03-25 16:46:08"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "420320": {
+        "sliding_window_timestamps": [
+            "2024-03-26 16:58:09",
+            "2024-03-26 17:13:09",
+            "2024-03-26 17:28:09",
+            "2024-03-26 17:43:09"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "420664": {
+        "sliding_window_timestamps": [
+            "2024-03-30 06:51:54",
+            "2024-03-30 07:06:54"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "420761": {
+        "sliding_window_timestamps": [
+            "2024-03-29 16:51:02",
+            "2024-03-29 17:06:02",
+            "2024-03-29 17:21:02"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "420783": {
+        "sliding_window_timestamps": [
+            "2024-03-29 16:52:23",
+            "2024-03-29 17:07:23",
+            "2024-03-29 17:22:23",
+            "2024-03-29 17:37:23",
+            "2024-03-29 17:52:23",
+            "2024-03-29 18:07:23",
+            "2024-03-29 18:22:23",
+            "2024-03-29 18:37:23"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "420794": {
+        "sliding_window_timestamps": [
+            "2024-03-12 06:51:24",
+            "2024-03-12 07:06:24",
+            "2024-03-12 07:21:24",
+            "2024-03-12 07:36:24",
+            "2024-03-12 07:51:24",
+            "2024-03-12 08:06:24",
+            "2024-03-12 08:21:24"
+        ],
+        "sliding_window_comments": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "420795": {
+        "sliding_window_timestamps": [
+            "2024-03-15 06:58:04",
+            "2024-03-15 07:13:04",
+            "2024-03-15 07:28:04",
+            "2024-03-15 07:43:04",
+            "2024-03-15 07:58:04"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "420796": {
+        "sliding_window_timestamps": [
+            "2024-03-19 06:51:49",
+            "2024-03-19 07:06:49",
+            "2024-03-19 07:21:49",
+            "2024-03-19 07:36:49",
+            "2024-03-19 07:51:49",
+            "2024-03-19 08:06:49"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 1
+    },
+    "421678": {
+        "sliding_window_timestamps": [
+            "2024-03-20 14:51:26",
+            "2024-03-20 15:06:26",
+            "2024-03-20 15:21:26",
+            "2024-03-20 15:36:26",
+            "2024-03-20 15:51:26",
+            "2024-03-20 16:06:26"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 1
+    },
+    "422093": {
+        "sliding_window_timestamps": [
+            "2024-03-23 06:42:16",
+            "2024-03-23 06:57:16",
+            "2024-03-23 07:12:16",
+            "2024-03-23 07:27:16",
+            "2024-03-23 07:42:16",
+            "2024-03-23 07:57:16",
+            "2024-03-23 08:12:16"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "423108": {
+        "sliding_window_timestamps": [
+            "2024-03-07 16:50:39"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "423360": {
+        "sliding_window_timestamps": [
+            "2024-03-26 16:48:55",
+            "2024-03-26 17:03:55",
+            "2024-03-26 17:18:55",
+            "2024-03-26 17:33:55",
+            "2024-03-26 17:48:55",
+            "2024-03-26 18:03:55",
+            "2024-03-26 18:18:55",
+            "2024-03-26 18:33:55"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "423377": {
+        "sliding_window_timestamps": [
+            "2024-03-22 16:53:22",
+            "2024-03-22 17:08:22",
+            "2024-03-22 17:23:22"
+        ],
+        "sliding_window_comments": [
+            0,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "423378": {
+        "sliding_window_timestamps": [
+            "2024-03-26 16:54:46",
+            "2024-03-26 17:09:46",
+            "2024-03-26 17:24:46",
+            "2024-03-26 17:39:46"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 0
+    },
+    "423718": {
+        "sliding_window_timestamps": [
+            "2024-03-02 10:50:24",
+            "2024-03-02 11:05:24",
+            "2024-03-02 11:20:24",
+            "2024-03-02 11:35:24",
+            "2024-03-02 11:50:24",
+            "2024-03-02 12:05:24",
+            "2024-03-02 12:20:24"
+        ],
+        "sliding_window_comments": [
+            4,
+            4,
+            5,
+            1,
+            4,
+            5,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 0
+    },
+    "423724": {
+        "sliding_window_timestamps": [
+            "2024-03-05 15:50:21",
+            "2024-03-05 16:05:21",
+            "2024-03-05 16:20:21",
+            "2024-03-05 16:35:21",
+            "2024-03-05 16:50:21"
+        ],
+        "sliding_window_comments": [
+            6,
+            6,
+            6,
+            1,
+            6
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very high activity",
+        "count_spam": 3
+    },
+    "423742": {
+        "sliding_window_timestamps": [
+            "2024-03-12 15:49:20",
+            "2024-03-12 16:04:20"
+        ],
+        "sliding_window_comments": [
+            1,
+            4
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "423922": {
+        "sliding_window_timestamps": [
+            "2024-03-12 16:51:43",
+            "2024-03-12 17:06:43",
+            "2024-03-12 17:21:43",
+            "2024-03-12 17:36:43",
+            "2024-03-12 17:51:43",
+            "2024-03-12 18:06:43",
+            "2024-03-12 18:21:43",
+            "2024-03-12 18:36:43",
+            "2024-03-12 18:51:43"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "426427": {
+        "sliding_window_timestamps": [
+            "2024-03-14 15:48:59",
+            "2024-03-14 16:03:59",
+            "2024-03-14 16:18:59"
+        ],
+        "sliding_window_comments": [
+            4,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "426428": {
+        "sliding_window_timestamps": [
+            "2024-03-16 10:51:12",
+            "2024-03-16 11:06:12",
+            "2024-03-16 11:21:12",
+            "2024-03-16 11:36:12",
+            "2024-03-16 11:51:12",
+            "2024-03-16 12:06:12"
+        ],
+        "sliding_window_comments": [
+            0,
+            4,
+            2,
+            0,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "426556": {
+        "sliding_window_timestamps": [
+            "2024-03-21 15:52:14",
+            "2024-03-21 16:07:14",
+            "2024-03-21 16:22:14",
+            "2024-03-21 16:37:14",
+            "2024-03-21 16:52:14",
+            "2024-03-21 17:07:14"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-21 17:09:29"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "426557": {
+        "sliding_window_timestamps": [
+            "2024-03-23 09:46:28",
+            "2024-03-23 10:01:28",
+            "2024-03-23 10:16:28",
+            "2024-03-23 10:31:28",
+            "2024-03-23 10:46:28",
+            "2024-03-23 11:01:28"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            5,
+            1,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 1
+    },
+    "426558": {
+        "sliding_window_timestamps": [
+            "2024-03-26 15:46:59",
+            "2024-03-26 16:01:59",
+            "2024-03-26 16:16:59",
+            "2024-03-26 16:31:59",
+            "2024-03-26 16:46:59",
+            "2024-03-26 17:01:59",
+            "2024-03-26 17:16:59"
+        ],
+        "sliding_window_comments": [
+            0,
+            7,
+            0,
+            1,
+            0,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 1
+    },
+    "426559": {
+        "sliding_window_timestamps": [
+            "2024-03-28 15:42:11",
+            "2024-03-28 15:57:11",
+            "2024-03-28 16:12:11",
+            "2024-03-28 16:27:11",
+            "2024-03-28 16:42:11",
+            "2024-03-28 16:57:11"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "426560": {
+        "sliding_window_timestamps": [
+            "2024-03-30 09:54:51",
+            "2024-03-30 10:09:51",
+            "2024-03-30 10:24:51",
+            "2024-03-30 10:39:51",
+            "2024-03-30 10:54:51",
+            "2024-03-30 11:09:51",
+            "2024-03-30 11:24:51"
+        ],
+        "sliding_window_comments": [
+            0,
+            4,
+            0,
+            0,
+            2,
+            2,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Bad activity",
+        "count_spam": 2
+    },
+    "428084": {
+        "sliding_window_timestamps": [
+            "2024-03-11 07:51:27",
+            "2024-03-11 08:06:27",
+            "2024-03-11 08:21:27",
+            "2024-03-11 08:36:27"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            1,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [
+            "2024-03-11 08:10:29",
+            "2024-03-11 08:29:50",
+            "2024-03-11 08:45:13"
+        ],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "428394": {
+        "sliding_window_timestamps": [
+            "2024-03-07 15:44:55",
+            "2024-03-07 15:59:55",
+            "2024-03-07 16:14:55",
+            "2024-03-07 16:29:55",
+            "2024-03-07 16:44:55",
+            "2024-03-07 16:59:55",
+            "2024-03-07 17:14:55",
+            "2024-03-07 17:29:55"
+        ],
+        "sliding_window_comments": [
+            1,
+            6,
+            3,
+            1,
+            0,
+            2,
+            2,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    },
+    "429510": {
+        "sliding_window_timestamps": [
+            "2024-03-09 12:00:33"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "429540": {
+        "sliding_window_timestamps": [
+            "2024-03-09 16:59:17"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "429731": {
+        "sliding_window_timestamps": [
+            "2024-03-28 16:52:36",
+            "2024-03-28 17:07:36",
+            "2024-03-28 17:22:36",
+            "2024-03-28 17:37:36",
+            "2024-03-28 17:52:36",
+            "2024-03-28 18:07:36",
+            "2024-03-28 18:22:36",
+            "2024-03-28 18:37:36",
+            "2024-03-28 18:52:36"
+        ],
+        "sliding_window_comments": [
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "430684": {
+        "sliding_window_timestamps": [
+            "2024-03-12 10:00:24"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "430704": {
+        "sliding_window_timestamps": [
+            "2024-03-12 11:51:50",
+            "2024-03-12 12:06:50",
+            "2024-03-12 12:21:50"
+        ],
+        "sliding_window_comments": [
+            0,
+            1,
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 1
+    },
+    "430709": {
+        "sliding_window_timestamps": [
+            "2024-03-12 16:56:57"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "434700": {
+        "sliding_window_timestamps": [
+            "2024-03-18 12:53:59",
+            "2024-03-18 13:08:59",
+            "2024-03-18 13:23:59",
+            "2024-03-18 13:38:59"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "435630": {
+        "sliding_window_timestamps": [
+            "2024-03-21 17:32:52"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "435736": {
+        "sliding_window_timestamps": [
+            "2024-03-22 06:53:05"
+        ],
+        "sliding_window_comments": [
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 2
+    },
+    "435741": {
+        "sliding_window_timestamps": [
+            "2024-03-22 11:59:10"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "435745": {
+        "sliding_window_timestamps": [
+            "2024-03-22 13:55:53"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "435917": {
+        "sliding_window_timestamps": [
+            "2024-03-23 10:54:27"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "435963": {
+        "sliding_window_timestamps": [
+            "2024-03-24 11:00:45"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "436517": {
+        "sliding_window_timestamps": [
+            "2024-03-26 15:40:47",
+            "2024-03-26 15:55:47",
+            "2024-03-26 16:10:47",
+            "2024-03-26 16:25:47",
+            "2024-03-26 16:40:47"
+        ],
+        "sliding_window_comments": [
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Very bad activity",
+        "count_spam": 0
+    },
+    "436662": {
+        "sliding_window_timestamps": [
+            "2024-03-26 15:59:58"
+        ],
+        "sliding_window_comments": [
+            2
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "437255": {
+        "sliding_window_timestamps": [
+            "2024-03-30 09:54:18"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 1
+    },
+    "437286": {
+        "sliding_window_timestamps": [
+            "2024-03-30 16:56:35"
+        ],
+        "sliding_window_comments": [
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Average activity",
+        "count_spam": 0
+    },
+    "437287": {
+        "sliding_window_timestamps": [
+            "2024-03-31 06:58:05",
+            "2024-03-31 07:13:05"
+        ],
+        "sliding_window_comments": [
+            0,
+            1
+        ],
+        "stop_words_timestamps": [],
+        "invalid_link_timestamps": [],
+        "validation_check_on_end_of_lesson": "False",
+        "student_activity": "Below average activity",
+        "count_spam": 0
+    }
+}

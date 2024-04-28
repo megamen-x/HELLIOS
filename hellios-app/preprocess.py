@@ -8,6 +8,29 @@ from datetime import datetime
 from datetime import timedelta
 import codecs
 import matplotlib.pyplot as plt
+from itertools import groupby
+from typing import List
+
+import pickle
+import torch
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from tqdm import tqdm
+
+def spam_classification(df: pd.DataFrame) -> pd.DataFrame:
+    device = 'cuda' if torch.cuda.is_available else 'cpu'
+
+    tokenizer = AutoTokenizer.from_pretrained("lokas/spam-usernames-classifier")
+    model = AutoModelForSequenceClassification.from_pretrained("lokas/spam-usernames-classifier").to(device)
+    sm = torch.nn.Softmax()
+
+    id2label = {0: 'Спам', 1: 'Не спам'}
+
+    for i, row in tqdm(df.iterrows()):
+        text = row['Текст сообщения']
+        inputs = tokenizer(text, return_tensors='pt', truncation=True).to(device)
+        res = sm(model(**inputs)[0]).view(-1)
+        df.loc[i, 'Спам Модель'] = id2label[0 if res[0].item() > 0.8 else 1]
+    return df
 
 
 LIST_OF_ALLOWED_LINKS = [
@@ -23,10 +46,17 @@ LIST_OF_ALLOWED_LINKS = [
 
 INTERVAL = timedelta(minutes=15)
 
-f = codecs.open('hellios-app\obscene_corpus.txt', mode='r', encoding='utf-8')
+f = codecs.open('obscene_corpus.txt', mode='r', encoding='utf-8')
 OBSCENE_WORDS = f.read().replace('\n', ' ').lower()
 f.close()
 
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
+model = AutoModelForSequenceClassification.from_pretrained('whatisslove11/labse').to(device)
+tokenizer = AutoTokenizer.from_pretrained('whatisslove11/labse')
+
+with open ("preds.pkl", "rb") as f:
+    exec_le = pickle.load(f)
 
 def has_obscene_words(a: str) -> int:
     """
@@ -150,8 +180,79 @@ def get_technical_errors_feature(df: pd.DataFrame) -> pd.DataFrame:
     df['Техническое перемещение'] = df['ID урока'].apply(lambda x: is_technical_error[x])
     return df
 
+id2label = {
+    '0': 'Very bad activity',
+    '1': 'Bad activity',
+    '2': 'Below average activity',
+    '3': 'Average activity',
+    '4': 'High activity',
+    '5': 'Very high activity'
+}
 
-def get_person_activities_feature(df: pd.DataFrame, id_lesson: int) -> None:
+def check_activity(
+        sliding_window_arr: List[int],
+        overall_comments: int,
+        user_overall_tr: int = 20
+) -> str:
+    activity_level = 3 # of 5
+    if 0 in sliding_window_arr:
+        max_seqs = max([len(list(seqs)) for n, seqs in groupby(sliding_window_arr) if n == 0])
+    else:
+        max_seqs = 0
+    if max_seqs == 0:
+        activity_level += 2
+    elif max_seqs == 1:
+        activity_level += 1
+    elif max_seqs == 2:
+        pass
+    else:
+        activity_level -= 1
+    if overall_comments < user_overall_tr:
+        activity_level -= 2
+    elif user_overall_tr <= overall_comments < 1.7 * user_overall_tr:
+        pass
+    elif overall_comments >= 1.7 * user_overall_tr:
+        activity_level += 1
+    act2label = min(5, max(0, activity_level)) 
+    return id2label[str(act2label)]
+
+def predict(model, tokenizer, text_to_predict):
+    model.to(device)
+
+    encoding = tokenizer.encode_plus(
+        text_to_predict,
+        add_special_tokens=True,
+        max_length=512,
+        return_token_type_ids=False,
+        truncation=True,
+        padding='max_length',
+        return_attention_mask=True,
+        return_tensors='pt'
+    )
+
+    out = {
+        'text': text_to_predict,
+        'input_ids': encoding['input_ids'].flatten(),
+        'attention_mask': encoding['attention_mask'].flatten()
+    }
+
+    input_ids = out["input_ids"].to(device)
+    attention_mask = out["attention_mask"].to(device)
+
+    outputs = model(
+        input_ids=input_ids.unsqueeze(0),
+        attention_mask=attention_mask.unsqueeze(0)
+    )
+
+    prediction = torch.argmax(outputs.logits, dim=1).cpu().numpy()[0]
+    label = exec_le.inverse_transform([prediction])
+
+    tmp = {'tech_lose': 1, 'not_tech_lose': 0}
+    
+    return tmp[label[0]]  # not cat, numerical
+
+
+def get_person_activities_feature(df: pd.DataFrame, id_lesson: int):
     """
     Подсчет количества комментариев в интервалах от k до k + INTERVAL минут.
     Пример: от 0 до 15 минут, от 15 до 30 минут и так до конца урока.
@@ -167,6 +268,7 @@ def get_person_activities_feature(df: pd.DataFrame, id_lesson: int) -> None:
     overall_stop_words = 0
     overall_banned_links = 0
     overall_tech_errors = 0
+    activity_v2 = {}
     for el in df['ID урока'].unique():
         group = df[df['ID урока'] == el]
         group.set_index(pd.Index(np.arange(len(group))), inplace=True)
@@ -178,8 +280,10 @@ def get_person_activities_feature(df: pd.DataFrame, id_lesson: int) -> None:
             list_counts.append(len(group[((group['Дата сообщения'] > current_time) & (
                     group['Дата сообщения'] <= current_time + INTERVAL))]))
             current_time += INTERVAL
+        activity_v2[el] = check_activity(list_counts, sum(list_counts))
         stop_words_timestamps = []
         invalid_link_timestamps = []
+        spam_count = 0
         for _, row in group.iterrows():
             if row['Наличие грубых слов'] == 1:
                 stop_words_timestamps.append(str(row['Дата сообщения']))
@@ -187,6 +291,8 @@ def get_person_activities_feature(df: pd.DataFrame, id_lesson: int) -> None:
             if row['Ссылки'] == 'Запрещенка':
                 invalid_link_timestamps.append(str(row['Дата сообщения']))
                 overall_banned_links += 1
+            if row['Спам Модель'] == 'Спам':
+                spam_count += 1
         overall_tech_errors += group.loc[0, 'Техническое перемещение']
         data[str(el)] = {
             'sliding_window_timestamps': list_times,
@@ -194,16 +300,21 @@ def get_person_activities_feature(df: pd.DataFrame, id_lesson: int) -> None:
             'stop_words_timestamps':stop_words_timestamps,
             'invalid_link_timestamps': invalid_link_timestamps,
             'validation_check_on_end_of_lesson': str(group.loc[0, 'Техническое перемещение']),
+            'student_activity': activity_v2[el],
+            'count_spam': spam_count
+            # 'tech_losses_from_student': group.loc[0, 'Технические проблемы'],
             }
         if el == id_lesson:
             plt.bar(list_times, list_counts)
             plt.xticks(rotation=30, ha='right')
             plt.suptitle('Активность пользователей, распределенная по времени')
             plt.savefig('foo.png',dpi=400)
+        
+    df['Активность'] = df['ID урока'].apply(lambda x: activity_v2[x])
 
     with open('data.json', mode='w', encoding='utf-8') as file:
         json.dump(data, file, indent=4)
-    return '\n'.join(['Количество стоп слов: ' + str(overall_stop_words), 'Количество забаненных ссылок: ' + str(overall_banned_links), 'Количество технических поломок: ' + str(overall_tech_errors)])
+    return df, '\n'.join(['Количество стоп слов: ' + str(overall_stop_words), 'Количество забаненных ссылок: ' + str(overall_banned_links), 'Количество технических поломок: ' + str(overall_tech_errors)])
 
 
 def data_processing(file: str, obscene_words: str='', allowed_links: str='', interval: int=15, id_lesson: int=321813) -> pd.DataFrame:
@@ -218,14 +329,14 @@ def data_processing(file: str, obscene_words: str='', allowed_links: str='', int
     global INTERVAL, OBSCENE_WORDS, LIST_OF_ALLOWED_LINKS
     INTERVAL = timedelta(minutes=interval)
     if len(obscene_words) > 0:
-        with open(obscene_words, mode='r') as fil:
-            new_words = fil.readlines()
+        with open(obscene_words, mode='r') as file:
+            new_words = file.readlines()
             new_words = ' '.join([el.replace('\n', '') for el in new_words])
         OBSCENE_WORDS += new_words
 
     if len(allowed_links) > 0:
-        with open(allowed_links, mode='r') as fil:
-            new_links = fil.readlines()
+        with open(allowed_links, mode='r') as file:
+            new_links = file.readlines()
             new_links = [el.replace('\n', '') for el in new_links]
         LIST_OF_ALLOWED_LINKS.extend(new_links)
     
@@ -257,15 +368,17 @@ def data_processing(file: str, obscene_words: str='', allowed_links: str='', int
     sorted_df = get_count_comments_session(sorted_df)
     sorted_df = get_technical_errors_feature(sorted_df)
     sorted_df = sorted_df.drop(columns=['Продолжительность лекции', 'Разницу между началом и первым комментарием'])
-    
-    additional = get_person_activities_feature(sorted_df, id_lesson)
-    
+    sorted_df = spam_classification(sorted_df)
+    # sorted_df['Технические проблемы'] = sorted_df['Текст сообщения'].apply(lambda x: predict(model, tokenizer, x))
+    # count_of_problems = sorted_df.groupby(["ID урока"])['Технические проблемы'].sum().to_dict()
+    # sorted_df['Технические проблемы'] = sorted_df['ID урока'].apply(lambda x: 0 if count_of_problems[x] < 2 else 1)
+    # print(len(sorted_df[sorted_df['Технические проблемы'] == 1]))
+    sorted_df, additional = get_person_activities_feature(sorted_df, id_lesson)
     sorted_df['Дата сообщения'] = sorted_df['Дата сообщения'].astype('str')
     sorted_df['Дата старта урока'] = sorted_df['Дата старта урока'].astype('str')
     sorted_df['Дата конца урока'] = sorted_df['Дата конца урока'].astype('str')
-    
     return sorted_df, additional
 
 
 if __name__ == "__main__":
-    print(data_processing('train_GB_KachestvoPrepodovaniya.xlsx'))
+    print(data_processing('train_GB_short_short.xlsx'))
