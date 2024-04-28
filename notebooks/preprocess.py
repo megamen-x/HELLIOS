@@ -4,10 +4,8 @@ from urllib.parse import urlparse
 import numpy as np
 import json
 from constants import LIST_OF_ALLOWED_LINKS, INTERVAL, OBSCENE_WORDS
-
-from datetime import datetime, time
-from time import time as t
-
+import pathlib
+from datetime import datetime
 
 def has_obscene_words(a: str) -> int:
     """
@@ -144,10 +142,10 @@ def get_person_activities_feature(df: pd.DataFrame) -> None:
 
     Если вы видите в конце названия функции слово feature - ЭТО ПИСАЛ АЛЕКСАНДР КАЛИНИН.
     """
-    diagrams = {}
+    data = {}
 
-    if not INTERVAL.endswith('min'):
-        raise ValueError(f"Attribute 'interval' must end with 'min'. Got {INTERVAL}")
+    # if not INTERVAL.endswith('min'):
+    #     raise ValueError(f"Attribute 'interval' must end with 'min'. Got {INTERVAL}")
 
     for el in df['ID урока'].unique():
         group = df[df['ID урока'] == el]
@@ -160,10 +158,22 @@ def get_person_activities_feature(df: pd.DataFrame) -> None:
             list_counts.append(len(group[((group['Дата сообщения'] > current_time) & (
                     group['Дата сообщения'] <= current_time + INTERVAL))]))
             current_time += INTERVAL
-        diagrams[el] = {'timestamps': list_times, 'count_comments': list_counts}
+        stop_words_timestamps = []
+        invalid_link_timestamps = []
+        for _, row in group.iterrows():
+            if row['Наличие грубых слов'] == 1:
+                stop_words_timestamps.append(str(row['Дата сообщения']))
+            if row['Ссылки'] == 'Запрещенка':
+                invalid_link_timestamps.append(str(row['Дата сообщения']))
+        data[str(el)] = {
+            'sliding_window_timestamps': list_times,
+            'sliding_window_comments':list_counts,
+            'stop_words_timestamps':stop_words_timestamps,
+            'invalid_link_timestamps': invalid_link_timestamps
+            }
 
-    with open('diagrams.json', mode='w', encoding='utf-8') as file:
-        json.dump(diagrams, file, indent=4)
+    with open('data.json', mode='w', encoding='utf-8') as file:
+        json.dump(data, file, indent=4)
 
 
 def data_processing(file: str) -> pd.DataFrame:
@@ -172,10 +182,15 @@ def data_processing(file: str) -> pd.DataFrame:
     :param file: путь до файла с данными
     :return: ps.DataFrame, файл с новыми колонками и очищенными данными
     """
-    df = pd.read_excel(file)
+    file_ext = pathlib.Path(file).suffix
+    if file_ext == '.xlsx':
+        df = pd.read_excel(file)
+    elif file_ext == '.csv':
+        df = pd.read_csv(file)
     df = df.dropna(how='all')
     df = df.drop(columns=['Разметка', 'Роль пользователя', 'Unnamed: 6'])
     df = df.dropna()
+    df['ID урока'] = df['ID урока'].astype('int')
 
     df = get_length_session(df)
     df['Текст сообщения'] = df['Текст сообщения'].apply(
